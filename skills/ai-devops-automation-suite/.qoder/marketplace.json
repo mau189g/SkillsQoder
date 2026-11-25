@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "skill",
+  "marketItemId": "official_bbU3cToC",
+  "itemName": "ai-devops-automation-suite",
+  "displayName": "ai-devops-automation-suite",
+  "version": "1.0.1",
+  "packageKind": "skill"
+}

@@ -1,0 +1,123 @@
+{
+  "name": "p8-full-stack",
+  "displayName": "P8全栈开发",
+  "displayNameEn": "P8 Full-Stack Development",
+  "version": "1.0.1",
+  "author": "@opvz",
+  "license": "MIT",
+  "category": "development",
+  "categoryLabel": "开发工具",
+  "icon": "_icon.png",
+  "entry": "SKILL.md",
+  "summary": "P8 级全栈开发助手，覆盖需求分析、系统设计、前后端编码、反复打磨、单元测试与证据化交付。内置文档优先门禁：开发前必须完成 01-08 编号项目文档，图示统一 mermaid（8.8.3 校验）。技术覆盖 Vue 3、Element Plus、Go+Gin、Spring Boot、FastAPI、NestJS、微信小程序与 uni-app。",
+  "keywords": [
+    "全栈开发",
+    "前端开发",
+    "后端开发",
+    "前端框架",
+    "后端框架",
+    "Vue 3",
+    "Element Plus 组件库",
+    "Go 语言",
+    "Gin 框架",
+    "Spring Boot",
+    "FastAPI",
+    "NestJS",
+    "微信小程序开发",
+    "uni-app 跨平台",
+    "系统设计",
+    "架构设计",
+    "技术选型",
+    "接口设计",
+    "数据库设计",
+    "代码审查",
+    "单元测试",
+    "代码重构",
+    "性能优化",
+    "需求分析",
+    "项目文档",
+    "Agent 智能体",
+    "Workflow 工作流",
+    "SOP 流程编排",
+    "状态变量设计",
+    "场景推演"
+  ],
+  "techStack": {
+    "note": "中文名为展示与检索用，括号内为技术英文原名",
+    "languages": [
+      "JavaScript 脚本语言（JavaScript）",
+      "TypeScript 类型脚本（TypeScript）",
+      "Go 语言（Go）",
+      "Java 语言（Java）",
+      "Python 脚本（Python）",
+      "PHP 脚本（PHP）",
+      "SQL 结构化查询语言（SQL）"
+    ],
+    "frontend": [
+      "渐进式 JavaScript 框架（Vue 3）",
+      "中后台组件库（Element Plus）",
+      "状态管理（Pinia）",
+      "路由（Vue Router）",
+      "服务端渲染框架（Nuxt）",
+      "构建工具（Vite）",
+      "单元测试（Vitest）",
+      "跨平台框架（uni-app）",
+      "微信小程序"
+    ],
+    "backend": [
+      "Go Web 框架（Gin）",
+      "Java 企业级框架（Spring Boot）",
+      "Python 异步框架（FastAPI）",
+      "Node 企业级框架（NestJS）",
+      "Node 轻量框架（Express）"
+    ],
+    "agentWorkflow": [
+      "智能体设计（Agent）",
+      "可视化工作流（Workflow）",
+      "SOP 分阶段流程编排",
+      "状态变量与条件分支",
+      "模型／知识／工具职责分离",
+      "无回复哨兵与转人工规则",
+      "场景推演与验收分层",
+      "发布回读与回滚安全"
+    ],
+    "engineering": [
+      "代码审查",
+      "单元测试与覆盖率",
+      "接口设计",
+      "数据库设计",
+      "鉴权与权限",
+      "部署与灰度发布",
+      "mermaid 图示校验"
+    ]
+  },
+  "capabilities": {
+    "domains": [
+      "需求分析与完整项目文档",
+      "前后端架构与技术选型",
+      "编码实现与重构",
+      "多轮分维度打磨",
+      "单元测试与覆盖率门禁",
+      "代码审查",
+      "性能优化",
+      "智能体与工作流编排",
+      "mermaid 图示校验"
+    ]
+  },
+  "files": {
+    "entry": "SKILL.md",
+    "publishDoc": "PUBLISH.md",
+    "references": 16,
+    "scripts": 3
+  },
+  "publish": {
+    "visibility": "public",
+    "authorAttribution": "@opvz",
+    "sourceCodeVisible": true,
+    "categoryLabel": "开发工具"
+  },
+  "requirements": {
+    "runtime": "任意",
+    "optionalDependencies": ["mermaid@8.8.3", "jsdom"]
+  }
+}

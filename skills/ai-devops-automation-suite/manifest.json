@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "type": "skill",
+  "name": "ai-devops-automation-suite",
+  "displayName": "AI代码助手与DevOps自动化系统",
+  "version": "1.0.0",
+  "author": "zhangjingwen2008",
+  "authorId": "u-d61a7c84254848ff8be0",
+  "description": "全栈开发者的AI助手 - 智能编程、自动部署、监控告警、CI/CD流水线",
+  "tags": [
+    "devops",
+    "coding",
+    "automation",
+    "ci-cd",
+    "monitoring",
+    "deployment",
+    "developer-tools"
+  ],
+  "category": "Development",
+  "installedFrom": "openclawmp",
+  "registryId": "s-dfc00d1d82b0aec0",
+  "hasPackage": true
+}
