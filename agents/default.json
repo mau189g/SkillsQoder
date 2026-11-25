@@ -1,0 +1,17 @@
+{
+  "id": "agent:default",
+  "name": "Qoder (agente incorporado)",
+  "description": "使用 Desktop 内置 Qoder Runtime 完成通用 Coding 任务。",
+  "builtin": true,
+  "enabled": true,
+  "collaborationEnabled": true,
+  "permissionMode": "auto",
+  "model": null,
+  "skillRefs": [],
+  "mcpServerNames": [],
+  "pluginRefs": [],
+  "allowedTools": [],
+  "disallowedTools": [],
+  "instructions": null,
+  "instructionsNote": "Agente incorporado de Qoder Desktop: sus instrucciones las gestiona la aplicación y no se exportan."
+}

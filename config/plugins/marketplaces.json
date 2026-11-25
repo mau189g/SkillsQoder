@@ -1,0 +1,11 @@
+{
+  "qoder-plugins": {
+    "source": {
+      "source": "url",
+      "url": "https://qoder.com/apphub/api/v1/marketplace/marketplace.json"
+    },
+    "installLocation": "C:\\Users\\PC\\.qoder\\plugins\\marketplaces\\qoder-plugins",
+    "lastUpdated": "2026-10-13T16:39:22.956Z",
+    "autoUpdate": true
+  }
+}

@@ -1,0 +1,3064 @@
+{
+  "generatedAt": "2026-11-25T15:06:27.389Z",
+  "skillCount": 215,
+  "invocableCount": 214,
+  "skills": [
+    {
+      "folder": "3d-animation-short-generator",
+      "name": "3d-animation-short-generator",
+      "invocable": true,
+      "description": "|",
+      "files": 8,
+      "bytes": 96732,
+      "source": {
+        "type": "github",
+        "repo": "minimax-ai/minimax-h3",
+        "url": "https://github.com/minimax-ai/minimax-h3.git",
+        "path": "skills/3d-animation-short-generator/SKILL.md",
+        "installedAt": "2026-11-25T13:44:11.116Z"
+      }
+    },
+    {
+      "folder": "a0-create-agent",
+      "name": "a0-create-agent",
+      "invocable": true,
+      "description": "Create Agent Zero profiles with agent.yaml, prompt overrides, tools and extensions.",
+      "files": 2,
+      "bytes": 21212,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "skills/a0-create-agent/SKILL.md",
+        "installedAt": "2026-11-25T13:37:33.785Z"
+      }
+    },
+    {
+      "folder": "a0-create-plugin",
+      "name": "a0-create-plugin",
+      "invocable": true,
+      "description": "Build, improve, review or publish Agent Zero plugins; local or community, with focused references.",
+      "files": 8,
+      "bytes": 53400,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "skills/a0-create-plugin/SKILL.md",
+        "installedAt": "2026-11-25T13:37:33.788Z"
+      }
+    },
+    {
+      "folder": "a0-development",
+      "name": "a0-development",
+      "invocable": true,
+      "description": "Develop or operate Agent Zero: projects, chats, tasks, framework, tools and API/WebUI.",
+      "files": 11,
+      "bytes": 51448,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "skills/a0-development/SKILL.md",
+        "installedAt": "2026-11-25T13:37:33.790Z"
+      }
+    },
+    {
+      "folder": "a0-manage-plugin",
+      "name": "a0-manage-plugin",
+      "invocable": true,
+      "description": "Find useful Plugin Index matches; inspect, scan, install, update and manage Agent Zero plugins.",
+      "files": 5,
+      "bytes": 15850,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "skills/a0-manage-plugin/SKILL.md",
+        "installedAt": "2026-11-25T13:37:33.793Z"
+      }
+    },
+    {
+      "folder": "academic-verify",
+      "name": "academic-verify",
+      "invocable": true,
+      "description": "Verify a research claim or academic citation by tracing it through publication → methodology → raw data → independent replication. Routes through perplexity-research for the actual web lookup, then formats results as a citation-checked brain page. Use when a book/article/conversation cites a study and you want to confirm the claim is real, replicated, and accurately characterized.",
+      "files": 2,
+      "bytes": 10689,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "ace-step",
+      "name": "ace-step",
+      "invocable": true,
+      "description": ">",
+      "files": 1,
+      "bytes": 16723,
+      "source": {
+        "type": "github",
+        "repo": "prime-skills/runcomfy-agent-skills",
+        "url": "https://github.com/prime-skills/runcomfy-agent-skills.git",
+        "path": "ace-step/SKILL.md",
+        "installedAt": "2026-11-23T14:58:45.760Z"
+      }
+    },
+    {
+      "folder": "action-items-to-linear",
+      "name": "action-items-to-linear",
+      "invocable": true,
+      "description": "Pulls action items from a meeting and drafts Linear issues for the user to approve. Use after a meeting when the user asks for action items or tickets.",
+      "files": 1,
+      "bytes": 1178,
+      "source": {
+        "type": "github",
+        "repo": "openwhispr/openwhispr",
+        "url": "https://github.com/openwhispr/openwhispr.git",
+        "path": "src/helpers/skills/recommended/action-items-to-linear/SKILL.md",
+        "installedAt": "2026-11-25T13:30:35.113Z"
+      }
+    },
+    {
+      "folder": "add-tts-engine",
+      "name": "add-tts-engine",
+      "invocable": true,
+      "description": "Use this skill to add a new TTS engine to Voicebox. It walks through dependency research, backend implementation, frontend wiring, PyInstaller bundling, and frozen-build testing. Always start with Phase 0 (dependency audit) before writing any code.",
+      "files": 1,
+      "bytes": 5497,
+      "source": {
+        "type": "github",
+        "repo": "jamiepine/voicebox",
+        "url": "https://github.com/jamiepine/voicebox.git",
+        "path": ".agents/skills/add-tts-engine/SKILL.md",
+        "installedAt": "2026-11-25T13:36:43.098Z"
+      }
+    },
+    {
+      "folder": "afrexai-cybersecurity-engine",
+      "name": "afrexai-cybersecurity-engine",
+      "invocable": true,
+      "description": "Complete cybersecurity assessment, threat modeling, and hardening system. Use when conducting security audits, threat modeling, penetration testing, incident response, or building security programs from scratch. Works with any stack — zero external dependencies.",
+      "files": 3,
+      "bytes": 36415,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "ai-devops-automation-suite",
+      "name": "ai-devops-automation-suite",
+      "invocable": true,
+      "description": "全栈开发者的AI助手 - 智能编程、自动部署、监控告警、CI/CD流水线",
+      "files": 3,
+      "bytes": 10511,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "ai-image-generation",
+      "name": "ai-image-generation",
+      "invocable": true,
+      "description": ">",
+      "files": 1,
+      "bytes": 30098,
+      "source": {
+        "type": "github",
+        "repo": "prime-skills/runcomfy-agent-skills",
+        "url": "https://github.com/prime-skills/runcomfy-agent-skills.git",
+        "path": "ai-image-generation/SKILL.md",
+        "installedAt": "2026-11-23T13:00:00.148Z"
+      }
+    },
+    {
+      "folder": "ai-prompt-research",
+      "name": "ai-prompt-research",
+      "invocable": true,
+      "description": "Find the questions people ask about a market, how ChatGPT answers them, and which sites get cited in the answers. Use when the user asks what people ask AI about their niche, wants prompt ideas, or wants to know where their brand is missing before choosing prompts to track. Research only; it never saves tracking or starts answer collection.",
+      "files": 1,
+      "bytes": 10530,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/ai-prompt-research/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.828Z"
+      }
+    },
+    {
+      "folder": "ai-video-generation",
+      "name": "ai-video-generation",
+      "invocable": true,
+      "description": ">",
+      "files": 1,
+      "bytes": 25253,
+      "source": {
+        "type": "github",
+        "repo": "prime-skills/runcomfy-agent-skills",
+        "url": "https://github.com/prime-skills/runcomfy-agent-skills.git",
+        "path": "ai-video-generation/SKILL.md",
+        "installedAt": "2026-11-23T12:59:53.303Z"
+      }
+    },
+    {
+      "folder": "ai-visibility-audit",
+      "name": "ai-visibility-audit",
+      "invocable": true,
+      "description": "Audit how a brand shows up in AI answers about its market and deliver a short report on the few changes most likely to get it mentioned or cited, such as a third-party page to get onto, an owned page to improve, or an access problem to fix. Use when the user asks for an AI visibility audit, a GEO or AEO audit, why AI recommends competitors instead of them, or how to show up in ChatGPT, Gemini or Google AI answers.",
+      "files": 1,
+      "bytes": 13566,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/ai-visibility-audit/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.832Z"
+      }
+    },
+    {
+      "folder": "animate-expo",
+      "name": "animate-expo",
+      "invocable": true,
+      "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs on, which properties, spring or timing, how the gesture hands off, how it degrades. Writes the implementation with Reanimated, Gesture Handler, Expo Router and expo-haptics. Use when animating anything in an Expo app, adding gestures, sheets, screen transitions, press feedback or haptics, or fixing motion that stutters on device. For web animation use `animate`.",
+      "files": 2,
+      "bytes": 35649,
+      "source": {
+        "type": "github",
+        "repo": "emilkowalski/skills",
+        "url": "https://github.com/emilkowalski/skills.git",
+        "path": "skills/animate-expo/SKILL.md",
+        "installedAt": "2026-11-23T15:09:47.271Z"
+      }
+    },
+    {
+      "folder": "appflowy",
+      "name": "appflowy",
+      "invocable": true,
+      "description": "Use when the user asks to find, read, summarize, create or change anything in their AppFlowy workspace - pages, documents, databases and their rows, database views and dashboards (also embedded in documents), forms and their sharing links, comments, tasks or reminders - through the AppFlowy MCP server.",
+      "files": 1,
+      "bytes": 3164,
+      "source": {
+        "type": "github",
+        "repo": "appflowy-io/appflowy-ai-plugins",
+        "url": "https://github.com/appflowy-io/appflowy-ai-plugins.git",
+        "path": "claude/appflowy/skills/appflowy/SKILL.md",
+        "installedAt": "2026-11-25T13:30:55.458Z"
+      }
+    },
+    {
+      "folder": "azure-aigateway",
+      "name": "azure-aigateway",
+      "invocable": true,
+      "description": "Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI model governance, MCP rate limiting, jailbreak detection, add Azure OpenAI backend, add AI Foundry model, test AI gateway, LLM policies, configure AI backend, token metrics, AI cost control, convert API to MCP, import OpenAPI to gateway.",
+      "files": 9,
+      "bytes": 41569,
+      "source": {
+        "type": "github",
+        "repo": "microsoft/azure-skills",
+        "url": "https://github.com/microsoft/azure-skills.git",
+        "path": "skills/azure-aigateway/SKILL.md",
+        "installedAt": "2026-11-23T15:03:26.261Z"
+      }
+    },
+    {
+      "folder": "azure-prepare",
+      "name": "azure-prepare",
+      "invocable": true,
+      "description": "Prepare azd-based Azure projects for deployment: generates azure.yaml, infrastructure (Bicep/Terraform), and Dockerfiles for the Azure Developer CLI (azd) workflow. USE ONLY when the user explicitly wants to use azd as the deployment tool, or the project already has an azure.yaml file. DO NOT USE FOR: non-azd deployments, Python App Service code-only deploys (use python-appservice-deploy), or cross-cloud migration (use azure-cloud-migrate). WHEN: prepare app for azd, create azure.yaml, set up azd infrastructure, modernize app for Azure with azd, deploy with azd, function app, timer trigger, service bus trigger, event-driven function, managed identity, generate Bicep, generate Terraform, create and deploy to Azure.",
+      "files": 166,
+      "bytes": 585435,
+      "source": {
+        "type": "github",
+        "repo": "microsoft/azure-skills",
+        "url": "https://github.com/microsoft/azure-skills.git",
+        "path": "skills/azure-prepare/SKILL.md",
+        "installedAt": "2026-11-23T15:00:13.481Z"
+      }
+    },
+    {
+      "folder": "baoyu-slide-deck",
+      "name": "baoyu-slide-deck",
+      "invocable": true,
+      "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\".",
+      "files": 35,
+      "bytes": 129825,
+      "source": {
+        "type": "github",
+        "repo": "jimliu/baoyu-skills",
+        "url": "https://github.com/jimliu/baoyu-skills.git",
+        "path": "skills/baoyu-slide-deck/SKILL.md",
+        "installedAt": "2026-11-23T15:06:22.519Z"
+      }
+    },
+    {
+      "folder": "brain-ops",
+      "name": "brain-ops",
+      "invocable": true,
+      "description": "|",
+      "files": 1,
+      "bytes": 8431,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "brand-promo-video-generator",
+      "name": "brand-promo-video-generator",
+      "invocable": true,
+      "description": "For marketers and creators producing promotional content for brands, products, websites, apps, shops, or personal projects. Users provide logos, product images, interface screenshots, official links, or other verifiable assets and confirm duration, aspect ratio, audience, and campaign focus. The Skill organizes brand facts and asset provenance, selects a narrative direction, plans precise beats and shots, generates needed imagery, video, voiceover, or music, and completes assembly and pre-delivery review. It outputs a promotional short that highlights product capabilities, use cases, and a call to action. Best for launches, website showcases, and social promotion; not for imitating real brand marks without authorized assets, inventing product claims, or producing long-form narrative films.",
+      "files": 3,
+      "bytes": 27577,
+      "source": {
+        "type": "github",
+        "repo": "minimax-ai/minimax-h3",
+        "url": "https://github.com/minimax-ai/minimax-h3.git",
+        "path": "skills/brand-promo-video-generator/SKILL.md",
+        "installedAt": "2026-11-25T13:44:11.120Z"
+      }
+    },
+    {
+      "folder": "browser-automation",
+      "name": "browser-automation",
+      "invocable": true,
+      "description": "Control web pages: tabs, clicks, forms, downloads, screenshots; host or Docker browser.",
+      "files": 1,
+      "bytes": 6618,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_browser/skills/browser-automation/SKILL.md",
+        "installedAt": "2026-11-25T13:38:25.996Z"
+      }
+    },
+    {
+      "folder": "browser-extension-control",
+      "name": "browser-extension-control",
+      "invocable": true,
+      "description": "Build, edit, install or audit Chrome Web Store extensions in Agent Zero Browser.",
+      "files": 1,
+      "bytes": 4473,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_browser/skills/browser-extension-control/SKILL.md",
+        "installedAt": "2026-11-25T13:38:25.997Z"
+      }
+    },
+    {
+      "folder": "browser-form-workflows",
+      "name": "browser-form-workflows",
+      "invocable": true,
+      "description": "Fill and submit web forms: uploads, selects, validation and contenteditable fields.",
+      "files": 1,
+      "bytes": 1513,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_browser/skills/browser-form-workflows/SKILL.md",
+        "installedAt": "2026-11-25T13:38:25.998Z"
+      }
+    },
+    {
+      "folder": "build-skill",
+      "name": "build-skill",
+      "invocable": true,
+      "description": "Create, rename, move, audit, test or refine Agent Zero skills and reusable workflows.",
+      "files": 2,
+      "bytes": 4497,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "skills/build-skill/SKILL.md",
+        "installedAt": "2026-11-25T13:37:33.798Z"
+      }
+    },
+    {
+      "folder": "building",
+      "name": "building",
+      "invocable": true,
+      "description": "Build Cap features in isolated Git worktrees with PlanetScale development branches, shared dependency caches, recorded feature demonstrations, and plain-language pull requests. Use for /building or $building requests, including resuming an existing building session. Ordinary coding requests do not select this publishing workflow.",
+      "files": 15,
+      "bytes": 218386,
+      "source": {
+        "type": "github",
+        "repo": "capsoftware/cap",
+        "url": "https://github.com/capsoftware/cap.git",
+        "path": ".agents/skills/building/SKILL.md",
+        "installedAt": "2026-11-25T13:32:19.250Z"
+      }
+    },
+    {
+      "folder": "busirocket-typescript-standards",
+      "name": "busirocket-typescript-standards",
+      "invocable": true,
+      "description": "Enforces TypeScript standards for maintainable codebases. Use when creating or",
+      "files": 12,
+      "bytes": 16723,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "byteplus-seedance-video",
+      "name": "byteplus-seedance-video",
+      "invocable": true,
+      "description": "Generate BytePlus Seedance 2.0, 2.0 Fast, or 2.5 videos from environment credentials in any repository. Use when Codex needs to upload reference media to BytePlus TOS, create and poll Ark Asset records, submit and monitor Seedance content generation tasks, clean temporary resources, or explain and debug this workflow. Supports native audio-video generation, multimodal references, and model-aware limits up to 30 seconds with Seedance 2.5.",
+      "files": 6,
+      "bytes": 49173,
+      "source": {
+        "type": "github",
+        "repo": "yang-fireworkhq/aigc-skills",
+        "url": "https://github.com/yang-fireworkhq/aigc-skills.git",
+        "path": "byteplus-seedance-video/SKILL.md",
+        "installedAt": "2026-11-23T14:44:38.945Z"
+      }
+    },
+    {
+      "folder": "calc-spreadsheets",
+      "name": "calc-spreadsheets",
+      "invocable": true,
+      "description": "Create, open or edit Calc spreadsheets: ODS default; XLSX for Excel compatibility.",
+      "files": 1,
+      "bytes": 2461,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_office/skills/calc-spreadsheets/SKILL.md",
+        "installedAt": "2026-11-25T13:38:26.005Z"
+      }
+    },
+    {
+      "folder": "calcom-api",
+      "name": "calcom-api",
+      "invocable": true,
+      "description": "Interact with the Cal.diy API v2 to manage scheduling, bookings, event types, availability, and calendars. Use this skill when building integrations that need to create or manage bookings, check availability, configure event types, or sync calendars with Cal.diy's scheduling infrastructure.",
+      "files": 8,
+      "bytes": 59043,
+      "source": {
+        "type": "github",
+        "repo": "calcom/cal.diy",
+        "url": "https://github.com/calcom/cal.diy.git",
+        "path": "agents/skills/calcom-api/SKILL.md",
+        "installedAt": "2026-11-25T13:31:45.149Z"
+      }
+    },
+    {
+      "folder": "cap-demo",
+      "name": "cap-demo",
+      "invocable": true,
+      "description": "Generate a cinematic 3D product-demo video from any URL — scouts the page, records it with virtual input, and treats it with Cap's 3D camera, brand background, and music.",
+      "files": 13,
+      "bytes": 5194335,
+      "source": {
+        "type": "github",
+        "repo": "capsoftware/cap",
+        "url": "https://github.com/capsoftware/cap.git",
+        "path": "apps/cli/skill/cap-demo/SKILL.md",
+        "installedAt": "2026-11-25T13:32:51.941Z"
+      }
+    },
+    {
+      "folder": "cap-infra",
+      "name": "cap-infra",
+      "invocable": true,
+      "description": "Host video and turn speech into text with Cap Infra. Use when the user wants to upload a video file and get a playback, share or embed link, transcribe an audio or video file or link, or check what their Cap Infra app has stored and spent. Needs the cap-infra MCP server with CAP_SECRET_KEY set.",
+      "files": 1,
+      "bytes": 6789,
+      "source": {
+        "type": "github",
+        "repo": "capsoftware/cap",
+        "url": "https://github.com/capsoftware/cap.git",
+        "path": "packages/infra-mcp/skill/SKILL.md",
+        "installedAt": "2026-11-25T13:32:51.942Z"
+      }
+    },
+    {
+      "folder": "capture",
+      "name": "capture",
+      "invocable": true,
+      "description": "Save any thought or content into the brain via one CLI command. The single human-facing entrypoint that replaces \"put_page vs commit-then-sync vs autopilot-wait\" with one command that just works.",
+      "files": 1,
+      "bytes": 5152,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "chatwoot-cli",
+      "name": "chatwoot-cli",
+      "invocable": true,
+      "description": ">",
+      "files": 1,
+      "bytes": 13710,
+      "source": {
+        "type": "github",
+        "repo": "chatwoot/cli",
+        "url": "https://github.com/chatwoot/cli.git",
+        "path": "skills/chatwoot-cli/SKILL.md",
+        "installedAt": "2026-11-25T13:31:56.202Z"
+      }
+    },
+    {
+      "folder": "citation-fixer",
+      "name": "citation-fixer",
+      "invocable": true,
+      "description": "|",
+      "files": 2,
+      "bytes": 7113,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "cline-sdk",
+      "name": "cline-sdk",
+      "invocable": true,
+      "description": "Comprehensive Cline SDK skill for building AI agents. Covers the direct Agent runtime, ClineCore sessions, custom tools, plugins, events, LLM providers, scheduling, multi-agent teams, and production deployment. Use for any task involving @cline/sdk or its sub-packages.",
+      "files": 16,
+      "bytes": 149126,
+      "source": {
+        "type": "github",
+        "repo": "cline/sdk-skill",
+        "url": "https://github.com/cline/sdk-skill.git",
+        "path": "skill/cline-sdk/SKILL.md",
+        "installedAt": "2026-11-25T13:36:59.448Z"
+      }
+    },
+    {
+      "folder": "co-op-game-intro-generator",
+      "name": "co-op-game-intro-generator",
+      "invocable": true,
+      "description": "For users creating a two-player co-op game menu or opening animation. Users provide two player names, a game title, a target visual style, and optional character reference images. The Skill locks identity cues, generates an approval image from a fixed menu framework with coordinated color, buttons, icons, and typography, then uses the approved result to rebuild the character, UI-copy, and event timing instructions for the final video. It outputs a co-op game intro featuring two characters, player cards, and menu interaction motion. Best for game concepts, character-led menus, and social content; not for playable game development, complex multi-page UI, exact brand-logo replication, or generic character-free title sequences.",
+      "files": 5,
+      "bytes": 42860,
+      "source": {
+        "type": "github",
+        "repo": "minimax-ai/minimax-h3",
+        "url": "https://github.com/minimax-ai/minimax-h3.git",
+        "path": "skills/co-op-game-intro-generator/SKILL.md",
+        "installedAt": "2026-11-25T13:44:11.122Z"
+      }
+    },
+    {
+      "folder": "commands-create-slash-command",
+      "name": "commands-create-slash-command",
+      "invocable": true,
+      "description": "Create or edit reusable Agent Zero /commands with YAML and text/Python templates.",
+      "files": 3,
+      "bytes": 2758,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_commands/skills/commands-create-slash-command/SKILL.md",
+        "installedAt": "2026-11-25T13:38:26.000Z"
+      }
+    },
+    {
+      "folder": "competitive-landscape",
+      "name": "competitive-landscape",
+      "invocable": true,
+      "description": "Map SEO market leaders, winning content themes, keyword coverage, backlinks, and strategic gaps.",
+      "files": 1,
+      "bytes": 6571,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/competitive-landscape/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.833Z"
+      }
+    },
+    {
+      "folder": "competitor-analysis",
+      "name": "competitor-analysis",
+      "invocable": true,
+      "description": "Analyze one competitor's organic footprint, ranking keywords, content themes, backlinks, and gaps.",
+      "files": 1,
+      "bytes": 6905,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/competitor-analysis/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.835Z"
+      }
+    },
+    {
+      "folder": "connect-tools-and-mcp",
+      "name": "connect-tools-and-mcp",
+      "invocable": true,
+      "description": "Giving crewAI agents tools and MCP servers on crewai 1.15.x: custom BaseTool with args_schema and @tool, which crewai_tools names really exist, tool caching, max_usage_count, ToolFailure, Agent(mcps=[...]) string and MCPServerStdio/HTTP/SSE forms, rewritten MCP tool names, MCPServerAdapter, timeouts, and what works on a hosted deployment. Use when writing or debugging a tool or MCP connection, when you see 'cannot import name BaseTool from crewai_tools', 'You are missing the mcp package', 'MCPConnectionError', 'Operation timed out after 30 seconds', 'reached its usage limit', 'Invalid MCP reference', 'Anthropic function name ... must start with a letter', an agent that never calls an MCP tool, mcps=[...] that yields no tools (for example an https:// string under akickoff or on CrewAI AMP), or a stdio MCP server that works locally but not after deploy.",
+      "files": 4,
+      "bytes": 56616,
+      "source": {
+        "type": "github",
+        "repo": "crewaiinc/skills",
+        "url": "https://github.com/crewaiinc/skills.git",
+        "path": "skills/connect-tools-and-mcp/SKILL.md",
+        "installedAt": "2026-11-23T14:50:19.044Z"
+      }
+    },
+    {
+      "folder": "conventions",
+      "name": "conventions",
+      "invocable": false,
+      "description": "Reglas compartidas; no es una skill invocable.",
+      "files": 19,
+      "bytes": 158275,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "create-repo-skill",
+      "name": "create-repo-skill",
+      "invocable": true,
+      "description": "Create or update a skill in this repository the right way — canonical home in .agents/skills, internal-vs-public marking, symlink mirroring into .claude/skills, and public docs registration for product skills. Use whenever adding a new skill, converting a workflow into a skill, or when .claude/skills and .agents/skills look out of sync.",
+      "files": 1,
+      "bytes": 5491,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/create-repo-skill/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.836Z"
+      }
+    },
+    {
+      "folder": "cross-modal-review",
+      "name": "cross-modal-review",
+      "invocable": true,
+      "description": "|",
+      "files": 1,
+      "bytes": 7675,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "Cybersecurity-Career-Guidance",
+      "name": "Cybersecurity Career Guidance",
+      "invocable": true,
+      "description": "Professional career assessment and roadmap platform for cybersecurity professionals seeking personalized guidance and skill development recommendations.",
+      "files": 3,
+      "bytes": 12921,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "dart-add-unit-test",
+      "name": "dart-add-unit-test",
+      "invocable": true,
+      "description": "Write and organize unit tests for functions, methods, and classes using `package:test`. Use when creating new logic or fixing bugs to ensure code remains correct and regression-free.",
+      "files": 1,
+      "bytes": 4831,
+      "source": {
+        "type": "github",
+        "repo": "dart-lang/skills",
+        "url": "https://github.com/dart-lang/skills.git",
+        "path": "skills/dart-add-unit-test/SKILL.md",
+        "installedAt": "2026-11-23T15:35:37.619Z"
+      }
+    },
+    {
+      "folder": "dart-collect-coverage",
+      "name": "dart-collect-coverage",
+      "invocable": true,
+      "description": "Collect coverage using the coverage packge and create an LCOV report",
+      "files": 1,
+      "bytes": 5034,
+      "source": {
+        "type": "github",
+        "repo": "dart-lang/skills",
+        "url": "https://github.com/dart-lang/skills.git",
+        "path": "skills/dart-collect-coverage/SKILL.md",
+        "installedAt": "2026-11-23T15:36:39.679Z"
+      }
+    },
+    {
+      "folder": "data-loss-gate",
+      "name": "data-loss-gate",
+      "invocable": true,
+      "description": ">",
+      "files": 2,
+      "bytes": 14066,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "defuddle",
+      "name": "defuddle",
+      "invocable": true,
+      "description": "Extract clean Markdown from HTML pages with Defuddle CLI.",
+      "files": 1,
+      "bytes": 1002,
+      "source": {
+        "type": "github",
+        "repo": "obsidianmd/obsidian-skills",
+        "url": "https://github.com/obsidianmd/obsidian-skills.git",
+        "path": "plugins/obsidian/skills/defuddle/SKILL.md",
+        "installedAt": "2026-11-25T13:37:15.300Z"
+      }
+    },
+    {
+      "folder": "design",
+      "name": "design",
+      "invocable": true,
+      "description": "Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini, Atlas Cloud, MuAPI, or UberLLM AI), corporate identity program (50 deliverables, CIP mockups), HTML presentations (Chart.js), banner design (22 styles, social/ads/web/print), icon design (15 styles, SVG, Gemini 3.1 Pro), social photos (HTML→screenshot, multi-platform). Actions: design logo, create CIP, generate mockups, build slides, design banner, generate icon, create social photos, social media images, brand identity, design system. Platforms: Facebook, Twitter, LinkedIn, YouTube, Instagram, Pinterest, TikTok, Threads, Google Ads.",
+      "files": 39,
+      "bytes": 308031,
+      "source": {
+        "type": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+        "path": ".claude/skills/design/SKILL.md",
+        "installedAt": "2026-11-23T15:05:41.018Z"
+      }
+    },
+    {
+      "folder": "design-brief",
+      "name": "design-brief",
+      "invocable": true,
+      "description": "|",
+      "files": 1,
+      "bytes": 14064,
+      "source": {
+        "type": "github",
+        "repo": "nexu-io/open-design",
+        "url": "https://github.com/nexu-io/open-design.git",
+        "path": "skills/design-brief/SKILL.md",
+        "installedAt": "2026-11-25T13:42:56.181Z"
+      }
+    },
+    {
+      "folder": "design-system",
+      "name": "design-system",
+      "invocable": true,
+      "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design tokens, systematic design, brand-compliant presentations.",
+      "files": 28,
+      "bytes": 190323,
+      "source": {
+        "type": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+        "path": ".claude/skills/design-system/SKILL.md",
+        "installedAt": "2026-11-23T15:05:54.010Z"
+      }
+    },
+    {
+      "folder": "deslop",
+      "name": "deslop",
+      "invocable": true,
+      "description": "Remove AI writing patterns from prose so it reads like a person wrote it. Use when writing, editing, or reviewing user-facing text (blog posts, docs, marketing copy, PR descriptions), or when asked to \"deslop\", \"de-AI\", or \"make it sound human\".",
+      "files": 2,
+      "bytes": 3480,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/deslop/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.837Z"
+      }
+    },
+    {
+      "folder": "devops-troubleshooter",
+      "name": "devops-troubleshooter",
+      "invocable": true,
+      "description": "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.",
+      "files": 1,
+      "bytes": 9954,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "document-query",
+      "name": "document-query",
+      "invocable": true,
+      "description": "Read, extract or compare PDFs, Office files, URLs and large text; OCR when vision fails.",
+      "files": 1,
+      "bytes": 5362,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_document_query/skills/document-query/SKILL.md",
+        "installedAt": "2026-11-25T13:38:26.003Z"
+      }
+    },
+    {
+      "folder": "draft-release-notes",
+      "name": "draft-release-notes",
+      "invocable": true,
+      "description": "Use this skill to draft or update the [Unreleased] section of CHANGELOG.md from the actual changes since the last tag. Run this at any point during development to keep a working copy of the release narrative. Does NOT bump versions or create tags.",
+      "files": 1,
+      "bytes": 3869,
+      "source": {
+        "type": "github",
+        "repo": "jamiepine/voicebox",
+        "url": "https://github.com/jamiepine/voicebox.git",
+        "path": ".agents/skills/draft-release-notes/SKILL.md",
+        "installedAt": "2026-11-25T13:36:43.102Z"
+      }
+    },
+    {
+      "folder": "evaluate-skill",
+      "name": "evaluate-skill",
+      "invocable": true,
+      "description": "Test a candidate OpenSEO skill end to end by running fresh, isolated Codex sessions against the local backend and scoring the reports they save. Use when editing a product skill (seo-audit, keyword-research, ...) and you need evidence that the new instructions produce better output, not just a cleaner file.",
+      "files": 3,
+      "bytes": 20152,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/evaluate-skill/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.838Z"
+      }
+    },
+    {
+      "folder": "expo-data-fetching",
+      "name": "expo-data-fetching",
+      "invocable": true,
+      "description": "Implement or debug data fetching in Expo apps. Use for fetch API calls, React Query, SWR, authenticated requests, caching, retries, offline support, loading and error states, or Expo Router data loaders (useLoaderData).",
+      "files": 4,
+      "bytes": 26256,
+      "source": {
+        "type": "github",
+        "repo": "expo/skills",
+        "url": "https://github.com/expo/skills.git",
+        "path": "plugins/expo/skills/expo-data-fetching/SKILL.md",
+        "installedAt": "2026-11-23T15:09:38.684Z"
+      }
+    },
+    {
+      "folder": "expo-dev-client",
+      "name": "expo-dev-client",
+      "invocable": true,
+      "description": "Build and distribute Expo development clients locally or via TestFlight for internal testing. For production TestFlight releases and store submission, use the eas-app-stores skill.",
+      "files": 2,
+      "bytes": 6271,
+      "source": {
+        "type": "github",
+        "repo": "expo/skills",
+        "url": "https://github.com/expo/skills.git",
+        "path": "plugins/expo/skills/expo-dev-client/SKILL.md",
+        "installedAt": "2026-11-23T15:07:12.724Z"
+      }
+    },
+    {
+      "folder": "expo-module",
+      "name": "expo-module",
+      "invocable": true,
+      "description": "Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Covers module definition DSL, native views, shared objects, config plugins, lifecycle hooks, autolinking, and type system. Use when building or modifying native modules for Expo. Not for migrating an existing Swift module from the definition DSL to the Expo Modules API 2.0 macros; use expo-migrate-module (from the expo-experiments plugin) for that.",
+      "files": 8,
+      "bytes": 35168,
+      "source": {
+        "type": "github",
+        "repo": "expo/skills",
+        "url": "https://github.com/expo/skills.git",
+        "path": "plugins/expo/skills/expo-module/SKILL.md",
+        "installedAt": "2026-11-23T15:09:29.583Z"
+      }
+    },
+    {
+      "folder": "expo-native-ui",
+      "name": "expo-native-ui",
+      "invocable": true,
+      "description": "Build beautiful, native-feeling Expo screens. Covers Apple HIG styling, semantic colors, native controls, SF Symbols, media, visual effects, gradients, storage, and responsive layout. For routing and navigation, use the expo-router skill; for motion and animation, use the expo-animation skill.",
+      "files": 9,
+      "bytes": 57408,
+      "source": {
+        "type": "github",
+        "repo": "expo/skills",
+        "url": "https://github.com/expo/skills.git",
+        "path": "plugins/expo/skills/expo-native-ui/SKILL.md",
+        "installedAt": "2026-11-23T15:09:13.126Z"
+      }
+    },
+    {
+      "folder": "faa-hf-std",
+      "name": "faa-hf-std",
+      "invocable": true,
+      "description": "Knowledge base from the FAA Human Factors Design Standard (HF-STD-001B, 2016) — the FAA's consolidated human-factors / human-systems-integration design criteria for systems it manages, operates, or maintains. Use for requirement-level design rules on: general human-factors design principles; automation and function allocation; designing equipment for maintenance; displays, controls, and visual indicators; alarms, audio, and voice communications; the computer-human interface (information presentation, coding, interaction styles, windows, dialogue); keyboards, input devices, and workstation/workplace ergonomics; system security, personnel safety, environment, anthropometry, and user documentation; plus intended-use and tailoring guidance. It is a quantified, source-attributed synthesis (heavily citing MIL-STD-1472G, MIL-HDBK-759C, DOD-HFDG-ATCCS, NUREG-0700, NASA-STD-3000, ANSI, OSHA, ISO 9241). Complements nasa-hsi as a parallel HSI tradition from the civil-aviation domain. Scope limits: it is design criteria, NOT an HSI lifecycle/process model (use nasa-hsi, nasa-npr-7123, or dau-se-guidebook for process); it does NOT reproduce the third-party standards it cites; it is FAA-acquisition-oriented (ATC, towers, TRACONs, airway facilities), not a general consumer-UX guide; and it is thin on modern touchscreen/mobile, web, and AI-driven interface patterns and on quantitative human-reliability analysis.",
+      "files": 15,
+      "bytes": 255276,
+      "source": {
+        "type": "github",
+        "repo": "jgsystemsconsulting/jgs-se-knowledge-packs",
+        "url": "https://github.com/jgsystemsconsulting/jgs-se-knowledge-packs.git",
+        "path": "packs/faa-hf-std/SKILL.md",
+        "installedAt": "2026-11-23T14:59:27.650Z"
+      }
+    },
+    {
+      "folder": "fact-check",
+      "name": "fact-check",
+      "invocable": true,
+      "description": ">",
+      "files": 26,
+      "bytes": 101145,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "fact-check-desk",
+      "name": "fact-check-desk",
+      "invocable": true,
+      "description": "|",
+      "files": 1,
+      "bytes": 21037,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "fact-check-workflow",
+      "name": "fact-check-workflow",
+      "invocable": true,
+      "description": "Structured fact-checking workflow. Use when verifying claims for publication, rating claims, or setting pre-publication checks.",
+      "files": 2,
+      "bytes": 11812,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "fact-checking",
+      "name": "fact-checking",
+      "invocable": true,
+      "description": "Use when verifying claims. Covers tracing a claim to its origin, evaluating sources, detecting laundered statistics, and reporting a verdict with the evidence rather than an assertion. Trigger on \"is this true\", \"where does this statistic come from\", \"fact check this article\". Do not use for open-ended multi-source research — see the deep-research skill.",
+      "files": 1,
+      "bytes": 6015,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "ffmpeg-analyse-video",
+      "name": "ffmpeg-analyse-video",
+      "invocable": true,
+      "description": "Analyse video content by extracting frames with ffmpeg and using AI vision",
+      "files": 2,
+      "bytes": 11699,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "FFmpeg-Video-Filters",
+      "name": "FFmpeg Video Filters",
+      "invocable": true,
+      "description": "Apply video filters - scale, crop, watermark, speed, blur, and visual effects",
+      "files": 2,
+      "bytes": 3786,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "flutter-add-integration-test",
+      "name": "flutter-add-integration-test",
+      "invocable": true,
+      "description": "Configures Flutter Driver for app interaction and converts MCP actions into permanent integration tests. Use when adding integration testing to a project, exploring UI components via MCP, or automating user flows with the integration_test package.",
+      "files": 1,
+      "bytes": 7505,
+      "source": {
+        "type": "github",
+        "repo": "flutter/agent-plugins",
+        "url": "https://github.com/flutter/agent-plugins.git",
+        "path": "skills/flutter-add-integration-test/SKILL.md",
+        "installedAt": "2026-11-23T15:10:21.218Z"
+      }
+    },
+    {
+      "folder": "flutter-add-widget-preview",
+      "name": "flutter-add-widget-preview",
+      "invocable": true,
+      "description": "Adds interactive widget previews to the project using the previews.dart system. Use when creating new UI components or updating existing screens to ensure consistent design and interactive testing.",
+      "files": 1,
+      "bytes": 8179,
+      "source": {
+        "type": "github",
+        "repo": "flutter/agent-plugins",
+        "url": "https://github.com/flutter/agent-plugins.git",
+        "path": "skills/flutter-add-widget-preview/SKILL.md",
+        "installedAt": "2026-11-23T15:33:44.089Z"
+      }
+    },
+    {
+      "folder": "flutter-add-widget-test",
+      "name": "flutter-add-widget-test",
+      "invocable": true,
+      "description": "Implement a component-level test using `WidgetTester` to verify UI rendering and user interactions (tapping, scrolling, entering text). Use when validating that a specific widget displays correct data and responds to events as expected.",
+      "files": 1,
+      "bytes": 6535,
+      "source": {
+        "type": "github",
+        "repo": "flutter/agent-plugins",
+        "url": "https://github.com/flutter/agent-plugins.git",
+        "path": "skills/flutter-add-widget-test/SKILL.md",
+        "installedAt": "2026-11-23T15:10:12.246Z"
+      }
+    },
+    {
+      "folder": "flutter-apply-architecture-best-practices",
+      "name": "flutter-apply-architecture-best-practices",
+      "invocable": true,
+      "description": "Architects a Flutter application using the recommended layered approach (UI, Logic, Data). Use when structuring a new project or refactoring for scalability.",
+      "files": 1,
+      "bytes": 6513,
+      "source": {
+        "type": "github",
+        "repo": "flutter/agent-plugins",
+        "url": "https://github.com/flutter/agent-plugins.git",
+        "path": "skills/flutter-apply-architecture-best-practices/SKILL.md",
+        "installedAt": "2026-11-23T15:06:40.109Z"
+      }
+    },
+    {
+      "folder": "flutter-build-responsive-layout",
+      "name": "flutter-build-responsive-layout",
+      "invocable": true,
+      "description": "Use `LayoutBuilder`, `MediaQuery`, or `Expanded/Flexible` to create a layout that adapts to different screen sizes. Use when you need the UI to look good on both mobile and tablet/desktop form factors.",
+      "files": 1,
+      "bytes": 6944,
+      "source": {
+        "type": "github",
+        "repo": "flutter/agent-plugins",
+        "url": "https://github.com/flutter/agent-plugins.git",
+        "path": "skills/flutter-build-responsive-layout/SKILL.md",
+        "installedAt": "2026-11-23T15:06:47.488Z"
+      }
+    },
+    {
+      "folder": "flutter-fix-layout-issues",
+      "name": "flutter-fix-layout-issues",
+      "invocable": true,
+      "description": "Fixes Flutter layout errors (overflows, unbounded constraints) using Dart and Flutter MCP tools. Use when addressing \"RenderFlex overflowed\", \"Vertical viewport was given unbounded height\", or similar layout issues.",
+      "files": 1,
+      "bytes": 5456,
+      "source": {
+        "type": "github",
+        "repo": "flutter/agent-plugins",
+        "url": "https://github.com/flutter/agent-plugins.git",
+        "path": "skills/flutter-fix-layout-issues/SKILL.md",
+        "installedAt": "2026-11-23T15:09:58.847Z"
+      }
+    },
+    {
+      "folder": "flutter-implement-json-serialization",
+      "name": "flutter-implement-json-serialization",
+      "invocable": true,
+      "description": "Create model classes with `fromJson` and `toJson` methods using `dart:convert`. Use when manually mapping JSON keys to class properties for simple data structures.",
+      "files": 1,
+      "bytes": 5803,
+      "source": {
+        "type": "github",
+        "repo": "flutter/agent-plugins",
+        "url": "https://github.com/flutter/agent-plugins.git",
+        "path": "skills/flutter-implement-json-serialization/SKILL.md",
+        "installedAt": "2026-11-23T15:10:42.842Z"
+      }
+    },
+    {
+      "folder": "flutter-setup-declarative-routing",
+      "name": "flutter-setup-declarative-routing",
+      "invocable": true,
+      "description": "Configure `MaterialApp.router` using a package like `go_router` for advanced URL-based navigation. Use when developing web applications or mobile apps that require specific deep linking and browser history support.",
+      "files": 1,
+      "bytes": 8459,
+      "source": {
+        "type": "github",
+        "repo": "flutter/agent-plugins",
+        "url": "https://github.com/flutter/agent-plugins.git",
+        "path": "skills/flutter-setup-declarative-routing/SKILL.md",
+        "installedAt": "2026-11-23T15:10:34.254Z"
+      }
+    },
+    {
+      "folder": "flutter-setup-localization",
+      "name": "flutter-setup-localization",
+      "invocable": true,
+      "description": "Add `flutter_localizations` and `intl` dependencies, enable \"generate true\" in `pubspec.yaml`, and create an `l10n.yaml` configuration file. Use when initializing localization support for a new Flutter project.",
+      "files": 1,
+      "bytes": 6130,
+      "source": {
+        "type": "github",
+        "repo": "flutter/agent-plugins",
+        "url": "https://github.com/flutter/agent-plugins.git",
+        "path": "skills/flutter-setup-localization/SKILL.md",
+        "installedAt": "2026-11-23T15:34:10.257Z"
+      }
+    },
+    {
+      "folder": "flutter-use-http-package",
+      "name": "flutter-use-http-package",
+      "invocable": true,
+      "description": "Use the `http` package to execute GET, POST, PUT, or DELETE requests. Use when you need to fetch from or send data to a REST API.",
+      "files": 1,
+      "bytes": 6630,
+      "source": {
+        "type": "github",
+        "repo": "flutter/agent-plugins",
+        "url": "https://github.com/flutter/agent-plugins.git",
+        "path": "skills/flutter-use-http-package/SKILL.md",
+        "installedAt": "2026-11-23T15:35:01.133Z"
+      }
+    },
+    {
+      "folder": "flux-2-klein",
+      "name": "flux-2-klein",
+      "invocable": true,
+      "description": ">",
+      "files": 1,
+      "bytes": 11832,
+      "source": {
+        "type": "github",
+        "repo": "prime-skills/runcomfy-agent-skills",
+        "url": "https://github.com/prime-skills/runcomfy-agent-skills.git",
+        "path": "flux-2-klein/SKILL.md",
+        "installedAt": "2026-11-23T14:58:55.713Z"
+      }
+    },
+    {
+      "folder": "frontend-design",
+      "name": "frontend-design",
+      "invocable": true,
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "files": 1,
+      "bytes": 4439,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "frontend-design-html",
+      "name": "frontend-design-html",
+      "invocable": true,
+      "description": "Create distinctive, production-grade HTML/CSS frontends with exceptional design quality",
+      "files": 2,
+      "bytes": 31701,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "frontend-development",
+      "name": "frontend-development",
+      "invocable": true,
+      "description": "Multi-framework frontend development. Frameworks: React 18+ (Suspense, hooks, TanStack), Vue 3 (Composition API, Pinia, Nuxt), Svelte 5 (Runes, SvelteKit), Angular (Signals, standalone). Common: TypeScript, state management, routing, data fetching, performance optimization, component patterns. Actions: create, build, implement, style, optimize, refactor components/pages/features. Keywords: React, Vue, Svelte, Angular, component, TypeScript, hooks, Composition API, runes, signals, useSuspenseQuery, Pinia, stores, state management, routing, lazy loading, Suspense, performance, bundle size, code splitting, reactivity, props, events. Use when: creating components in any framework, building pages, fetching data, implementing routing, state management, optimizing performance, organizing frontend code, choosing between frameworks.",
+      "files": 2,
+      "bytes": 32849,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "gemini-api-dev",
+      "name": "gemini-api-dev",
+      "invocable": true,
+      "description": "Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, speech generation (TTS), voice design, voice replication, streaming responses, background research tasks, function calling, structured output, calibrated decisions (yes/no, choice, rubric scoring), or migrating from the old generateContent API. Covers SDK usage and best practices for Gemini models and agents in Python and TypeScript.",
+      "files": 2,
+      "bytes": 47828,
+      "source": {
+        "type": "github",
+        "repo": "google-gemini/gemini-skills",
+        "url": "https://github.com/google-gemini/gemini-skills.git",
+        "path": "skills/gemini-api-dev/SKILL.md",
+        "installedAt": "2026-11-25T13:44:13.931Z"
+      }
+    },
+    {
+      "folder": "git-workflow",
+      "name": "git-workflow",
+      "invocable": true,
+      "description": "Git workflow patterns including branching strategies, commit conventions, keeping history clean and readable, tidying local commits before merging, merge vs rebase, conflict resolution, and collaborative development best practices for teams of all sizes. Use when choosing a branching strategy, writing commit conventions, cleaning up history before a pull request, deciding merge versus rebase, or resolving conflicts.",
+      "files": 1,
+      "bytes": 15308,
+      "source": {
+        "type": "github",
+        "repo": "affaan-m/ecc",
+        "url": "https://github.com/affaan-m/ecc.git",
+        "path": "skills/git-workflow/SKILL.md",
+        "installedAt": "2026-11-23T13:01:50.163Z"
+      }
+    },
+    {
+      "folder": "github-actions-docs",
+      "name": "github-actions-docs",
+      "invocable": true,
+      "description": "Use when users ask how to write, explain, customize, migrate, secure, or troubleshoot GitHub Actions workflows, workflow syntax, triggers, matrices, runners, reusable workflows, artifacts, caching, secrets, OIDC, deployments, custom actions, or Actions Runner Controller, especially when they need official GitHub documentation, exact links, or docs-grounded YAML guidance.",
+      "files": 2,
+      "bytes": 13400,
+      "source": {
+        "type": "github",
+        "repo": "xixu-me/skills",
+        "url": "https://github.com/xixu-me/skills.git",
+        "path": "skills/github-actions-docs/SKILL.md",
+        "installedAt": "2026-11-23T15:02:17.355Z"
+      }
+    },
+    {
+      "folder": "gws-slides",
+      "name": "gws-slides",
+      "invocable": true,
+      "description": "Google Slides: Read and write presentations.",
+      "files": 1,
+      "bytes": 1679,
+      "source": {
+        "type": "github",
+        "repo": "googleworkspace/cli",
+        "url": "https://github.com/googleworkspace/cli.git",
+        "path": "skills/gws-slides/SKILL.md",
+        "installedAt": "2026-11-23T15:06:04.972Z"
+      }
+    },
+    {
+      "folder": "h3-prompt-writing",
+      "name": "h3-prompt-writing",
+      "invocable": true,
+      "description": "Write MiniMax H3 video generation prompts for T2VA, I2VA, FL2VA, L2VA, and Ref2VA. Use when rewriting multimodal requests into H3 prompt structures, composing integrated_multimodal_description, overall_soundscape, and non_diegetic_music, aligning keyframes, or defining reference labels for images, videos, and audio.",
+      "files": 4,
+      "bytes": 42796,
+      "source": {
+        "type": "github",
+        "repo": "minimax-ai/minimax-h3",
+        "url": "https://github.com/minimax-ai/minimax-h3.git",
+        "path": "skills/h3-prompt-writing/SKILL.md",
+        "installedAt": "2026-11-25T13:44:11.124Z"
+      }
+    },
+    {
+      "folder": "handdrawn-live-video-generator",
+      "name": "handdrawn-live-video-generator",
+      "invocable": true,
+      "description": "|",
+      "files": 3,
+      "bytes": 16852,
+      "source": {
+        "type": "github",
+        "repo": "minimax-ai/minimax-h3",
+        "url": "https://github.com/minimax-ai/minimax-h3.git",
+        "path": "skills/handdrawn-live-video-generator/SKILL.md",
+        "installedAt": "2026-11-25T13:44:11.126Z"
+      }
+    },
+    {
+      "folder": "host-code-execution",
+      "name": "host-code-execution",
+      "invocable": true,
+      "description": "Guide safe use of code_execution_remote for shell-backed execution on the connected A0 CLI host. Use when the user asks for their computer, local terminal, CLI host, remote shell, not Docker, or host-side Python/Node/terminal commands.",
+      "files": 1,
+      "bytes": 2998,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_a0_connector/skills/host-code-execution/SKILL.md",
+        "installedAt": "2026-11-25T13:38:25.986Z"
+      }
+    },
+    {
+      "folder": "host-computer-use",
+      "name": "host-computer-use",
+      "invocable": true,
+      "description": "Beta desktop control through the connected A0 CLI host. Use for the user's host/local computer screenshots, screen inspection, menus, native app UI, OS-level clicking, scrolling, typing, or checking computer_use_remote status. Use instead of linux-desktop for host/local machine control. Do not use for ordinary browser navigation; host browser requests should use the browser tool.",
+      "files": 1,
+      "bytes": 11974,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_a0_connector/skills/host-computer-use/SKILL.md",
+        "installedAt": "2026-11-25T13:38:25.988Z"
+      }
+    },
+    {
+      "folder": "host-computer-use-linux",
+      "name": "host-computer-use-linux",
+      "invocable": true,
+      "description": "Host Linux guidance for `computer_use_remote` when results report Linux, Wayland, X11, or AT-SPI features. Covers verified focus, AT-SPI targeting, XWayland app limitations, remote desktop viewers, and screenshot verification; excludes the internal Docker/Xpra desktop.",
+      "files": 2,
+      "bytes": 11724,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_a0_connector/skills/host-computer-use-linux/SKILL.md",
+        "installedAt": "2026-11-25T13:38:25.989Z"
+      }
+    },
+    {
+      "folder": "host-computer-use-macos",
+      "name": "host-computer-use-macos",
+      "invocable": true,
+      "description": "Backend-specific macOS guidance for `computer_use_remote`. Load when a tool result reports backend_family/backend_id `macos` or Accessibility-tree features. Covers AX structural targeting, macOS window actions, and screenshot verification.",
+      "files": 1,
+      "bytes": 4895,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_a0_connector/skills/host-computer-use-macos/SKILL.md",
+        "installedAt": "2026-11-25T13:38:25.991Z"
+      }
+    },
+    {
+      "folder": "host-computer-use-windows",
+      "name": "host-computer-use-windows",
+      "invocable": true,
+      "description": "Backend-specific Windows guidance for `computer_use_remote`. Load when a tool result reports backend_family/backend_id `windows` or Windows UI Automation features. Covers UIA structural targeting, Windows session caveats, and screenshot verification.",
+      "files": 1,
+      "bytes": 5919,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_a0_connector/skills/host-computer-use-windows/SKILL.md",
+        "installedAt": "2026-11-25T13:38:25.992Z"
+      }
+    },
+    {
+      "folder": "host-file-editing",
+      "name": "host-file-editing",
+      "invocable": true,
+      "description": "Guide safe use of text_editor_remote for reading, writing, and patching files on the connected A0 CLI host. Use when the user asks to inspect or edit files on their computer, local files, CLI host files, or files that are explicitly not Docker/server files.",
+      "files": 1,
+      "bytes": 2889,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_a0_connector/skills/host-file-editing/SKILL.md",
+        "installedAt": "2026-11-25T13:38:25.994Z"
+      }
+    },
+    {
+      "folder": "html-ppt",
+      "name": "html-ppt",
+      "invocable": true,
+      "description": "HTML PPT Studio — author professional static HTML presentations in many styles, layouts, and animations, all driven by templates. Use when the user asks for a presentation, PPT, slides, keynote, deck, slideshow, \"幻灯片\", \"演讲稿\", \"做一份 PPT\", \"做一份 slides\", a reveal-style HTML deck, a 小红书 图文, or any kind of multi-slide pitch/report/sharing document that should look tasteful and be usable with keyboard navigation. Triggers include keywords like \"presentation\", \"ppt\", \"slides\", \"deck\", \"keynote\", \"reveal\", \"slideshow\", \"幻灯片\", \"演讲稿\", \"分享稿\", \"小红书图文\", \"talk slides\", \"pitch deck\", \"tech sharing\", \"technical presentation\".",
+      "files": 239,
+      "bytes": 10937947,
+      "source": {
+        "type": "github",
+        "repo": "lewislulu/html-ppt-skill",
+        "url": "https://github.com/lewislulu/html-ppt-skill.git",
+        "path": "SKILL.md",
+        "installedAt": "2026-11-23T15:32:36.459Z"
+      }
+    },
+    {
+      "folder": "html-presentations",
+      "name": "html-presentations",
+      "invocable": true,
+      "description": "Create single-file HTML slide presentations with vanilla JS/CSS. Themed (terminal.css, catppuccin, nord), keyboard-navigable, with inline SVG diagrams and animations. Use when the user asks for an HTML presentation, slide deck, or single-file slides without a framework.",
+      "files": 8,
+      "bytes": 216350,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "hyperframes",
+      "name": "hyperframes",
+      "invocable": true,
+      "description": "Read first to make, edit, animate or render any video with HyperFrames (HTML rendered to video), including launch films, explainers, music videos, charts, maps, vertical clips, title cards, captions and overlays. Holds the render contract, the work loop and what each kind of video needs.",
+      "files": 75,
+      "bytes": 1044004,
+      "source": {
+        "type": "github",
+        "repo": "heygen-com/hyperframes",
+        "url": "https://github.com/heygen-com/hyperframes.git",
+        "path": "skills/hyperframes/SKILL.md",
+        "installedAt": "2026-11-23T12:59:45.708Z"
+      }
+    },
+    {
+      "folder": "impress-presentations",
+      "name": "impress-presentations",
+      "invocable": true,
+      "description": "Create, open or edit slides: ODP default; PPTX for PowerPoint compatibility.",
+      "files": 1,
+      "bytes": 2086,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_office/skills/impress-presentations/SKILL.md",
+        "installedAt": "2026-11-25T13:38:26.006Z"
+      }
+    },
+    {
+      "folder": "improve-codebase-architecture",
+      "name": "improve-codebase-architecture",
+      "invocable": true,
+      "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+      "files": 3,
+      "bytes": 13034,
+      "source": {
+        "type": "github",
+        "repo": "mattpocock/skills",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/engineering/improve-codebase-architecture/SKILL.md",
+        "installedAt": "2026-11-23T14:59:48.125Z"
+      }
+    },
+    {
+      "folder": "json-canvas",
+      "name": "json-canvas",
+      "invocable": true,
+      "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
+      "files": 2,
+      "bytes": 15806,
+      "source": {
+        "type": "github",
+        "repo": "obsidianmd/obsidian-skills",
+        "url": "https://github.com/obsidianmd/obsidian-skills.git",
+        "path": "plugins/obsidian/skills/json-canvas/SKILL.md",
+        "installedAt": "2026-11-25T13:37:15.303Z"
+      }
+    },
+    {
+      "folder": "keyword-clustering",
+      "name": "keyword-clustering",
+      "invocable": true,
+      "description": "Cluster keywords by intent and map them to existing or proposed pages.",
+      "files": 1,
+      "bytes": 6411,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/keyword-clustering/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.839Z"
+      }
+    },
+    {
+      "folder": "keyword-research",
+      "name": "keyword-research",
+      "invocable": true,
+      "description": "Discover keyword opportunities, evaluate metrics and SERPs, and save/tag promising terms.",
+      "files": 1,
+      "bytes": 8096,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/keyword-research/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.841Z"
+      }
+    },
+    {
+      "folder": "knap",
+      "name": "knap",
+      "invocable": true,
+      "description": "Render Markdown from templates and structured data using Knap CLI. Use when the user asks to apply a Knap template, turn JSON or CSV data into notes, batch-generate Markdown files, or format Defuddle output into a note.",
+      "files": 1,
+      "bytes": 4210,
+      "source": {
+        "type": "github",
+        "repo": "obsidianmd/obsidian-skills",
+        "url": "https://github.com/obsidianmd/obsidian-skills.git",
+        "path": "plugins/obsidian/skills/knap/SKILL.md",
+        "installedAt": "2026-11-25T13:37:15.305Z"
+      }
+    },
+    {
+      "folder": "link-prospecting",
+      "name": "link-prospecting",
+      "invocable": true,
+      "description": "Find link prospects, discover contact paths, and draft outreach from SERPs and backlink signals.",
+      "files": 1,
+      "bytes": 7140,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/link-prospecting/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.842Z"
+      }
+    },
+    {
+      "folder": "linux-desktop",
+      "name": "linux-desktop",
+      "invocable": true,
+      "description": "Control Agent Zero's Docker/Xpra desktop and GUI apps; not the user's host computer.",
+      "files": 3,
+      "bytes": 36670,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_desktop/skills/linux-desktop/SKILL.md",
+        "installedAt": "2026-11-25T13:38:26.002Z"
+      }
+    },
+    {
+      "folder": "lipsync",
+      "name": "lipsync",
+      "invocable": true,
+      "description": ">",
+      "files": 1,
+      "bytes": 12943,
+      "source": {
+        "type": "github",
+        "repo": "prime-skills/runcomfy-agent-skills",
+        "url": "https://github.com/prime-skills/runcomfy-agent-skills.git",
+        "path": "lipsync/SKILL.md",
+        "installedAt": "2026-11-23T14:59:02.150Z"
+      }
+    },
+    {
+      "folder": "local-seo",
+      "name": "local-seo",
+      "invocable": true,
+      "description": "Audit a Google Business Profile, compare it to local competitors, and map Maps visibility around a location.",
+      "files": 1,
+      "bytes": 13993,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/local-seo/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.844Z"
+      }
+    },
+    {
+      "folder": "markdown-documents",
+      "name": "markdown-documents",
+      "invocable": true,
+      "description": "Write or edit Markdown notes, reports and plain text; default for non-Office writing.",
+      "files": 1,
+      "bytes": 2524,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_office/skills/markdown-documents/SKILL.md",
+        "installedAt": "2026-11-25T13:38:26.008Z"
+      }
+    },
+    {
+      "folder": "meeting-decisions",
+      "name": "meeting-decisions",
+      "invocable": true,
+      "description": "Finds the decisions in the user's meeting notes, with the date and meeting of each. Use when the user asks what was decided.",
+      "files": 1,
+      "bytes": 635,
+      "source": {
+        "type": "github",
+        "repo": "openwhispr/openwhispr",
+        "url": "https://github.com/openwhispr/openwhispr.git",
+        "path": "src/helpers/skills/recommended/meeting-decisions/SKILL.md",
+        "installedAt": "2026-11-25T13:30:35.115Z"
+      }
+    },
+    {
+      "folder": "meeting-summary-to-slack",
+      "name": "meeting-summary-to-slack",
+      "invocable": true,
+      "description": "Writes a short meeting summary and drafts it to a Slack channel for the user to approve. Use when the user asks to share a meeting summary.",
+      "files": 1,
+      "bytes": 761,
+      "source": {
+        "type": "github",
+        "repo": "openwhispr/openwhispr",
+        "url": "https://github.com/openwhispr/openwhispr.git",
+        "path": "src/helpers/skills/recommended/meeting-summary-to-slack/SKILL.md",
+        "installedAt": "2026-11-25T13:30:35.117Z"
+      }
+    },
+    {
+      "folder": "merge-ready",
+      "name": "merge-ready",
+      "invocable": true,
+      "description": "Get a branch ready for the maintainer's final review. Review it for security, simplicity, and billing abuse, fix what's real, get checks passing, and open or update the PR. Use whenever the user says a feature, fix, or branch should be \"merge ready\", asks to get changes ready for review, or appends this to a build request (\"build X and make it merge-ready\").",
+      "files": 1,
+      "bytes": 2035,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/merge-ready/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.857Z"
+      }
+    },
+    {
+      "folder": "minimalist-product-ad-generator",
+      "name": "minimalist-product-ad-generator",
+      "invocable": true,
+      "description": "|",
+      "files": 3,
+      "bytes": 62669,
+      "source": {
+        "type": "github",
+        "repo": "minimax-ai/minimax-h3",
+        "url": "https://github.com/minimax-ai/minimax-h3.git",
+        "path": "skills/minimalist-product-ad-generator/SKILL.md",
+        "installedAt": "2026-11-25T13:44:11.128Z"
+      }
+    },
+    {
+      "folder": "mmx-cli",
+      "name": "mmx-cli",
+      "invocable": true,
+      "description": "Use mmx to generate text, images, video, and speech, and to transcribe audio, via the MiniMax AI platform. Use when the user wants to create media content, chat with MiniMax models, transcribe audio to text, perform web search, or manage MiniMax API resources from the terminal.",
+      "files": 3,
+      "bytes": 42331,
+      "source": {
+        "type": "github",
+        "repo": "minimax-ai/cli",
+        "url": "https://github.com/minimax-ai/cli.git",
+        "path": "skill/SKILL.md",
+        "installedAt": "2026-11-25T13:37:08.770Z"
+      }
+    },
+    {
+      "folder": "music-video-subtitle-generator",
+      "name": "music-video-subtitle-generator",
+      "invocable": true,
+      "description": "|",
+      "files": 3,
+      "bytes": 31791,
+      "source": {
+        "type": "github",
+        "repo": "minimax-ai/minimax-h3",
+        "url": "https://github.com/minimax-ai/minimax-h3.git",
+        "path": "skills/music-video-subtitle-generator/SKILL.md",
+        "installedAt": "2026-11-25T13:44:11.130Z"
+      }
+    },
+    {
+      "folder": "n8n-agents-official",
+      "name": "n8n-agents-official",
+      "invocable": true,
+      "description": "Use when the user wants an agent, assistant, or bot in n8n, or is building, editing, testing, publishing, or debugging a first-class n8n Agent. Covers choosing an Agent vs a workflow vs the AI Agent node, the Agent MCP tools (create_agent, mutate_agent, validate_agent, call_agent, publish_agent, update_agent_integration), Agent config JSON, tools and approvals, skills, sub-agents, model routing, knowledge files, vector stores, memory and sessions, Slack / Telegram / Discord / Linear / n8n Chat channels, scheduled tasks, the Message an Agent node, and reading Agent sessions and traces. Triggers on \"build me an agent\", \"assistant\", \"chatbot\", \"Slack bot\", \"Telegram bot\", \"agent skills\", \"sub-agent\", \"knowledge base\", \"agent memory\", \"session\", \"Message an Agent\", \"publish the agent\", or any Agent tool call.",
+      "files": 13,
+      "bytes": 57473,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-agents-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.762Z"
+      }
+    },
+    {
+      "folder": "n8n-ai-nodes-official",
+      "name": "n8n-ai-nodes-official",
+      "invocable": true,
+      "description": "Use when building or editing AI inside an n8n workflow: the AI Agent node, Text Classifier, Information Extractor, Sentiment Analysis, Summarization Chain, Basic LLM Chain, embeddings, vector stores, single one-shot LLM calls, or AI media generation (image / audio / video) via the native LangChain provider nodes. Also when a first-class n8n Agent can''t do the job: trigger data mapped exactly into tool parameters, or memory shared across workflows. Triggers on any `@n8n/n8n-nodes-langchain.*` node, \"AI Agent node\", \"LLM with tools\", \"tool calling\", \"fromAi\", \"system prompt\", \"memory window\", \"structured output\", \"outputParser\", \"RAG\", \"vector store\", \"embeddings\", \"classify with AI\", \"extract fields with LLM\", \"sentiment analysis\", \"summarize with LLM\", \"single LLM call\", chat triggers with files, Slack / Discord / Teams / Telegram bot workflows, AI image / video / audio generation, or any multi-turn or one-shot LLM step in a workflow.",
+      "files": 12,
+      "bytes": 148443,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-ai-nodes-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.764Z"
+      }
+    },
+    {
+      "folder": "n8n-binary-and-data-official",
+      "name": "n8n-binary-and-data-official",
+      "invocable": true,
+      "description": "Use when handling files, images, attachments, or binary data in n8n, OR when an AI agent needs to take a user-uploaded file as tool input or return a generated file. For Data Tables (schemas, dedup, persistent state), see the separate n8n-data-tables-official skill. Triggers on \"file\", \"image\", \"PDF\", \"attachment\", \"binary\", \"upload\", \"download\", chat trigger with files, agent tool that needs a file, vision/multimodal, or any handling of non-JSON file data.",
+      "files": 5,
+      "bytes": 39071,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-binary-and-data-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.767Z"
+      }
+    },
+    {
+      "folder": "n8n-code-nodes-official",
+      "name": "n8n-code-nodes-official",
+      "invocable": true,
+      "description": "Use when the user reaches for a Code node, mentions writing JavaScript or Python in n8n, or any custom logic comes up in workflow design. Triggers on \"Code node\", \"Code\", \"JavaScript\", \"Python\", \"custom logic\", \"transform data\", \"$input\", \"$json transformation\", \"loop in code\", \"write a function\", or any time the obvious answer seems to be \"just put it in code.",
+      "files": 4,
+      "bytes": 33595,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-code-nodes-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.768Z"
+      }
+    },
+    {
+      "folder": "n8n-credentials-and-security-official",
+      "name": "n8n-credentials-and-security-official",
+      "invocable": true,
+      "description": "Use when handling any auth, API keys, tokens, OAuth, bearer tokens, basic auth, or secret values in n8n workflows. Triggers on \"API key\", \"token\", \"bearer\", \"OAuth\", \"secret\", \"auth\", \"credentials\", \"Authorization header\", \"x-api-key\", or any node configuration that mentions a third-party service.",
+      "files": 5,
+      "bytes": 23674,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-credentials-and-security-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.770Z"
+      }
+    },
+    {
+      "folder": "n8n-data-tables-official",
+      "name": "n8n-data-tables-official",
+      "invocable": true,
+      "description": "Use when working with n8n's built-in Data Tables, designing schemas, inserting/updating/upserting rows, deduping, or querying. Triggers on \"Data Table\", \"data table\", `n8n-nodes-base.dataTable`, \"dedup\", \"idempotency\", \"lookup\", \"persistent state\", \"store across executions\", or any schema design discussion inside n8n.",
+      "files": 4,
+      "bytes": 34267,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-data-tables-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.772Z"
+      }
+    },
+    {
+      "folder": "n8n-debugging-official",
+      "name": "n8n-debugging-official",
+      "invocable": true,
+      "description": "Use when an n8n workflow isn't working, errors appear, results don't match what was expected, or the user says \"this isn't working.\" Triggers on errors, unexpected output, \"it's not working\", \"why is this happening\", \"the workflow stopped\", failure investigation, or any debugging context.",
+      "files": 3,
+      "bytes": 22575,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-debugging-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.775Z"
+      }
+    },
+    {
+      "folder": "n8n-error-handling-official",
+      "name": "n8n-error-handling-official",
+      "invocable": true,
+      "description": "Use when building any webhook-triggered workflow, scheduled/production-bound workflow, wiring a per-node error output, or any workflow where silent failure would drop user-visible work. Triggers on \"webhook\", \"respond to webhook\", \"API\", \"production\", \"error\", \"failure\", \"5xx\", \"try/catch\", \"error workflow\", \"onError\", \"continueErrorOutput\", \"error branch\", \"node error output\", \"output(1)\", \"main[1]\", \"scheduled\", or any workflow that runs unattended.",
+      "files": 7,
+      "bytes": 63194,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-error-handling-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.777Z"
+      }
+    },
+    {
+      "folder": "n8n-expressions-official",
+      "name": "n8n-expressions-official",
+      "invocable": true,
+      "description": "Use when writing or reviewing n8n expressions (`{{...}}` syntax), `$json` / `$node` references, Luxon date code, or expression errors. Triggers on `{{}}`, `$json`, `$node`, `$input`, `DateTime`, `Luxon`, \"expression error\", \"evaluating\", \"format date\", \"transform field\", or any node-parameter assignment.",
+      "files": 1,
+      "bytes": 21695,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-expressions-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.779Z"
+      }
+    },
+    {
+      "folder": "n8n-extending-mcp-official",
+      "name": "n8n-extending-mcp-official",
+      "invocable": true,
+      "description": "Use when you want to expose an n8n workflow as a tool the coding agent can call. Two cases. (1) Wrap n8n API capabilities the MCP doesn''t natively expose: folder deletion, project create/rename, tag rename/delete, instance metadata, credential creation. (2) Expose a general-purpose workflow as an agent tool: a workflow that calls a third-party API, runs business logic, or does any task you want the agent to invoke. Triggers on \"expose as MCP tool\", \"build a tool for my agent\", \"I need to know X\" where X isn''t an MCP tool, \"delete folder\", \"rename tag\", or any capability gap.",
+      "files": 1,
+      "bytes": 8838,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-extending-mcp-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.780Z"
+      }
+    },
+    {
+      "folder": "n8n-loops-official",
+      "name": "n8n-loops-official",
+      "invocable": true,
+      "description": "Use when working with multi-item data, batches, paginated APIs, rate-limited APIs, fan-out across multiple branches, anything that needs to \"do this for each\", or any time the user mentions looping, iterating, batching, paging, parallelism, or \"loop over items\". Triggers on \"loop\", \"iterate\", \"for each\", \"batch\", \"page through\", \"paginate\", \"rate limit\", \"process all\", \"fan-out\", \"parallel branches\", \"concurrency\", or any node that should run once vs once-per-item.",
+      "files": 3,
+      "bytes": 36327,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-loops-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.782Z"
+      }
+    },
+    {
+      "folder": "n8n-node-configuration-official",
+      "name": "n8n-node-configuration-official",
+      "invocable": true,
+      "description": "Use when configuring any n8n node: HTTP, webhooks, database, comms (Slack/Gmail/Discord), AI, triggers, Merge, anything. Triggers on any node-builder call (`node(...)`, `trigger(...)`, `tool(...)`, `memory(...)`, `languageModel(...)`, `ifElse(...)`, `merge(...)`, etc.), configuring a parameter, `useDataOfInput`, `numberOfInputs`, fan-in convergence, or any node-specific debugging.",
+      "files": 9,
+      "bytes": 38754,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-node-configuration-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.783Z"
+      }
+    },
+    {
+      "folder": "n8n-subworkflows-official",
+      "name": "n8n-subworkflows-official",
+      "invocable": true,
+      "description": "Use when building anything multi-step, anything that looks repeatable, anything the user mentions reusing, or any workflow with more than ~10 nodes. Triggers on \"reuse\", \"I do this in another workflow\", \"extract\", \"modular\", \"shared logic\", \"subworkflow\", multi-step builds, or any task that mentions logic the user has built before.",
+      "files": 3,
+      "bytes": 36868,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-subworkflows-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.785Z"
+      }
+    },
+    {
+      "folder": "n8n-workflow-lifecycle-official",
+      "name": "n8n-workflow-lifecycle-official",
+      "invocable": true,
+      "description": "Use when starting, designing, organizing, finishing, or shipping an n8n workflow. Covers visual layout (sticky notes), descriptions that capture the *why*, node names, validation, testing, folders/projects, and publishing. Triggers on create_workflow_from_code, update_workflow, validate_workflow, publish_workflow, archive_workflow, \"design\", \"lay out\", \"organize\", \"structure\", \"sticky\", \"describe this workflow\", \"ship\", \"deploy\", \"publish\", \"name this workflow\", or any folder/project organization request.",
+      "files": 9,
+      "bytes": 103248,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/n8n-workflow-lifecycle-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.786Z"
+      }
+    },
+    {
+      "folder": "nestjs-graceful-shutdown",
+      "name": "nestjs-graceful-shutdown",
+      "invocable": true,
+      "description": "Makes a NestJS app shut down cleanly on SIGTERM and fixes the container image around it. Adds app.enableShutdownHooks() so onModuleDestroy, beforeApplicationShutdown and onApplicationShutdown run, gets the signal to Node with an exec-form CMD instead of npm run start:prod or a shell, handles Node as PID 1 with tini, docker --init, or the useProcessExit option, and rewrites the Dockerfile as a multi-stage, non-root image with NODE_ENV=production, npm ci, a .dockerignore, and package.json for ESM. Sets --max-old-space-size (or --max-old-space-size-percentage) in NODE_OPTIONS below the container memory limit. Use when pods take 30 seconds to stop, docker stop hangs, exit code 137, OOMKilled, restarts with no log line, queue jobs or requests are cut off during a deploy, or the user asks about a Dockerfile, CMD, ENTRYPOINT, a node:20 image, or memory limits. Also use when preparing a NestJS app for production or a deploy, even if the user does not mention shutdown.",
+      "files": 1,
+      "bytes": 11440,
+      "source": {
+        "type": "github",
+        "repo": "grzywn/skills",
+        "url": "https://github.com/grzywn/skills.git",
+        "path": "skills/nestjs-graceful-shutdown/SKILL.md",
+        "installedAt": "2026-11-23T14:51:12.335Z"
+      }
+    },
+    {
+      "folder": "observability-triage",
+      "name": "observability-triage",
+      "invocable": true,
+      "description": "Triage OpenSEO production errors in Cloudflare Workers Observability — verified query recipes, counting gotchas, a known-noise filter list applied automatically, and the on-demand CPU/heap profiling recipe. Use when asked to review Cloudflare logs/observability, count OOMs or worker errors, compare error rates between periods, investigate a prod error spike, or find where a worker spends CPU or memory (profiles, flamegraphs).",
+      "files": 2,
+      "bytes": 16361,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/observability-triage/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.858Z"
+      }
+    },
+    {
+      "folder": "obsidian-bases",
+      "name": "obsidian-bases",
+      "invocable": true,
+      "description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, kanban boards, filters, or formulas in Obsidian.",
+      "files": 2,
+      "bytes": 25433,
+      "source": {
+        "type": "github",
+        "repo": "obsidianmd/obsidian-skills",
+        "url": "https://github.com/obsidianmd/obsidian-skills.git",
+        "path": "plugins/obsidian/skills/obsidian-bases/SKILL.md",
+        "installedAt": "2026-11-25T13:37:15.307Z"
+      }
+    },
+    {
+      "folder": "obsidian-cli",
+      "name": "obsidian-cli",
+      "invocable": true,
+      "description": "Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, run JavaScript, capture errors, take screenshots, and inspect the DOM. Use when the user asks to interact with their Obsidian vault, manage notes, search vault content, perform vault operations from the command line, or develop and debug Obsidian plugins and themes.",
+      "files": 1,
+      "bytes": 6553,
+      "source": {
+        "type": "github",
+        "repo": "obsidianmd/obsidian-skills",
+        "url": "https://github.com/obsidianmd/obsidian-skills.git",
+        "path": "plugins/obsidian/skills/obsidian-cli/SKILL.md",
+        "installedAt": "2026-11-25T13:37:15.308Z"
+      }
+    },
+    {
+      "folder": "obsidian-headless",
+      "name": "obsidian-headless",
+      "invocable": true,
+      "description": "Sync and publish Obsidian vaults from the command line with Obsidian Headless (`ob`), without the desktop app. Use when the user wants to set up or run Obsidian Sync or Obsidian Publish on a server, in CI, or from a terminal, or change a vault's Sync or Publish settings.",
+      "files": 1,
+      "bytes": 4591,
+      "source": {
+        "type": "github",
+        "repo": "obsidianmd/obsidian-skills",
+        "url": "https://github.com/obsidianmd/obsidian-skills.git",
+        "path": "plugins/obsidian/skills/obsidian-headless/SKILL.md",
+        "installedAt": "2026-11-25T13:37:15.310Z"
+      }
+    },
+    {
+      "folder": "obsidian-markdown",
+      "name": "obsidian-markdown",
+      "invocable": true,
+      "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.",
+      "files": 4,
+      "bytes": 10073,
+      "source": {
+        "type": "github",
+        "repo": "obsidianmd/obsidian-skills",
+        "url": "https://github.com/obsidianmd/obsidian-skills.git",
+        "path": "plugins/obsidian/skills/obsidian-markdown/SKILL.md",
+        "installedAt": "2026-11-25T13:37:15.311Z"
+      }
+    },
+    {
+      "folder": "office-artifacts",
+      "name": "office-artifacts",
+      "invocable": true,
+      "description": "Manage Office files, formats and versions; use Writer, Calc or Impress for content.",
+      "files": 1,
+      "bytes": 6871,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_office/skills/office-artifacts/SKILL.md",
+        "installedAt": "2026-11-25T13:38:26.010Z"
+      }
+    },
+    {
+      "folder": "one-on-one-prep",
+      "name": "one-on-one-prep",
+      "invocable": true,
+      "description": "Gathers what changed since the user's last one-on-one with someone. Use when the user asks to prep for a 1:1.",
+      "files": 1,
+      "bytes": 617,
+      "source": {
+        "type": "github",
+        "repo": "openwhispr/openwhispr",
+        "url": "https://github.com/openwhispr/openwhispr.git",
+        "path": "src/helpers/skills/recommended/one-on-one-prep/SKILL.md",
+        "installedAt": "2026-11-25T13:30:35.119Z"
+      }
+    },
+    {
+      "folder": "openapi-spec-generation",
+      "name": "openapi-spec-generation",
+      "invocable": true,
+      "description": "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.",
+      "files": 3,
+      "bytes": 26765,
+      "source": {
+        "type": "github",
+        "repo": "wshobson/agents",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/documentation-generation/skills/openapi-spec-generation/SKILL.md",
+        "installedAt": "2026-11-23T13:02:14.445Z"
+      }
+    },
+    {
+      "folder": "openproject-workpackage-crud",
+      "name": "openproject-workpackage-crud",
+      "invocable": true,
+      "description": "Use when prompts reference OpenProject work packages such as WP#1234, work package URLs, or clearly labeled work package IDs and the task is to inspect, create, or update work packages through local openproject-cli workflows",
+      "files": 1,
+      "bytes": 6770,
+      "source": {
+        "type": "github",
+        "repo": "opf/openproject-agent-skills",
+        "url": "https://github.com/opf/openproject-agent-skills.git",
+        "path": "openproject-workpackage-crud/SKILL.md",
+        "installedAt": "2026-11-25T13:31:03.153Z"
+      }
+    },
+    {
+      "folder": "openseo-release-notes",
+      "name": "openseo-release-notes",
+      "invocable": true,
+      "description": "Cut an OpenSEO release — bump the version, draft user-facing release notes from commits since the last tag, run a review + subagent-verification pass, and open a \"release: vX.X.X\" PR. Use when the user asks to prepare a release, bump the version, or write release notes.",
+      "files": 1,
+      "bytes": 7480,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/openseo-release-notes/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.859Z"
+      }
+    },
+    {
+      "folder": "openseo-review-web-content",
+      "name": "openseo-review-web-content",
+      "invocable": true,
+      "description": "Write and review content for the OpenSEO website (web/), including blog posts, guides, feature pages, FAQs. Makes sure each page delivers real value to its target reader. Use whenever adding or editing user-facing prose in web/content or web/src.",
+      "files": 1,
+      "bytes": 1988,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/openseo-review-web-content/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.861Z"
+      }
+    },
+    {
+      "folder": "openwhispr-api",
+      "name": "openwhispr-api",
+      "invocable": true,
+      "description": "Use this skill when building integrations with the OpenWhispr REST API, calling OpenWhispr endpoints, managing notes/folders/transcriptions programmatically, accessing team-space content with workspace keys, or connecting to the OpenWhispr MCP server. Covers authentication, all V1 endpoints, spaces, pagination, rate limits, error handling, and the remote MCP server.",
+      "files": 1,
+      "bytes": 15775,
+      "source": {
+        "type": "github",
+        "repo": "openwhispr/openwhispr",
+        "url": "https://github.com/openwhispr/openwhispr.git",
+        "path": "agent-skills/openwhispr-api/SKILL.md",
+        "installedAt": "2026-11-25T13:30:35.109Z"
+      }
+    },
+    {
+      "folder": "openwhispr-cli",
+      "name": "openwhispr-cli",
+      "invocable": true,
+      "description": "Use this skill whenever the user wants to operate on OpenWhispr notes, folders, transcriptions, or audio from a terminal or shell. The OpenWhispr CLI (`openwhispr` binary, npm package `@openwhispr/cli`) talks to either the local desktop app or the cloud API and exposes every operation needed for managing notes, folders, transcriptions, audio, plus auth and config. Trigger this skill when the user mentions \"openwhispr cli\", running shell commands against OpenWhispr, automating note workflows, cleaning up a transcription, building agent integrations against OpenWhispr, or scripting any OpenWhispr operation — even if they don't say \"CLI\" explicitly.",
+      "files": 1,
+      "bytes": 11674,
+      "source": {
+        "type": "github",
+        "repo": "openwhispr/openwhispr",
+        "url": "https://github.com/openwhispr/openwhispr.git",
+        "path": "agent-skills/openwhispr-cli/SKILL.md",
+        "installedAt": "2026-11-25T13:30:35.112Z"
+      }
+    },
+    {
+      "folder": "ops-devops-platform",
+      "name": "ops-devops-platform",
+      "invocable": true,
+      "description": "Production-grade DevOps and platform engineering patterns: Kubernetes, Terraform, containers, GitOps, CI/CD, observability, incident response, security hardening, and cloud-native operations (AWS, GCP, Azure, Kafka).",
+      "files": 2,
+      "bytes": 23291,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "osint-investigation",
+      "name": "osint-investigation",
+      "invocable": true,
+      "description": "Sparse-clue OSINT investigation methodology for extracting overlooked leads, connecting fragmented evidence, and testing explanations across sources. Use for multi-step CTF challenges, image/video geolocation, event reconstruction, public-account and entity verification, artifact interpretation, infrastructure research, or stalled investigations.",
+      "files": 1,
+      "bytes": 22735,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "osint-methods",
+      "name": "osint-methods",
+      "invocable": true,
+      "description": "Open Source Intelligence (OSINT) collection, analysis, and verification methods for political intelligence, security research, and transparency projects",
+      "files": 1,
+      "bytes": 10714,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "owasp-audit",
+      "name": "owasp-audit",
+      "invocable": true,
+      "description": "Audit application source code against the OWASP Top 10:2025 categories — broken access control (incl. SSRF), security misconfiguration, software supply chain failures, cryptographic failures, injection, insecure design, authentication failures, software and data integrity, logging and alerting failures, mishandling of exceptional conditions — with recon, a coverage ledger, per-finding verification, and a findings.json report. Use when the user mentions 'OWASP,' 'OWASP Top 10,' 'security audit,' 'security review,' 'secure code review,' 'code security review,' 'vulnerability audit,' 'find vulnerabilities,' 'appsec review,' 'application security audit,' 'check for security issues,' 'review this PR for security,' 'pre-merge security check,' 'diff review,' 'broken access control,' 'IDOR,' 'SQL injection,' 'XSS,' 'SSRF,' 'webhook security,' or wants to check their codebase for common security weaknesses.",
+      "files": 21,
+      "bytes": 289179,
+      "source": {
+        "type": "github",
+        "repo": "briiirussell/cybersecurity-skills",
+        "url": "https://github.com/briiirussell/cybersecurity-skills.git",
+        "path": "skills/owasp-audit/SKILL.md",
+        "installedAt": "2026-11-23T13:01:25.306Z"
+      }
+    },
+    {
+      "folder": "p8-full-stack",
+      "name": "p8-full-stack",
+      "invocable": true,
+      "description": ">-",
+      "files": 23,
+      "bytes": 155686,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "page-monitoring",
+      "name": "page-monitoring",
+      "invocable": true,
+      "description": "Web page change detection, availability tracking, and RSS feed generation. Use to monitor changes, downtime, or make a feed.",
+      "files": 2,
+      "bytes": 26827,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "paper-collage-explainer-generator",
+      "name": "paper-collage-explainer-generator",
+      "invocable": true,
+      "description": "|",
+      "files": 3,
+      "bytes": 40934,
+      "source": {
+        "type": "github",
+        "repo": "minimax-ai/minimax-h3",
+        "url": "https://github.com/minimax-ai/minimax-h3.git",
+        "path": "skills/paper-collage-explainer-generator/SKILL.md",
+        "installedAt": "2026-11-25T13:44:11.132Z"
+      }
+    },
+    {
+      "folder": "papercraft-stop-motion-explainer",
+      "name": "papercraft-stop-motion-explainer",
+      "invocable": true,
+      "description": "For creators explaining science, education, or general knowledge through tactile handmade papercraft visuals. Users provide a topic, core knowledge points, or source material and may specify audience, duration, aspect ratio, and deliverable type. The Skill extracts the learning goal and visual metaphor, proposes creative directions, designs paper characters, layered diorama sets, and props, creates preview concepts plus image and video prompts, and plans storyboards, camera movement, transitions, and sound with staged approvals and review checklists. It outputs a production-ready papercraft stop-motion explainer package, or selected assets such as still prompts, image-series prompts, short-video prompts, or storyboards. Best for cut-paper, pop-up-book, layered diorama, and miniature stop-motion explainers; not for standard 2D cartoons, line doodles, live action, or explainers without a paper-art look.",
+      "files": 3,
+      "bytes": 46141,
+      "source": {
+        "type": "github",
+        "repo": "minimax-ai/minimax-h3",
+        "url": "https://github.com/minimax-ai/minimax-h3.git",
+        "path": "skills/papercraft-stop-motion-explainer/SKILL.md",
+        "installedAt": "2026-11-25T13:44:11.134Z"
+      }
+    },
+    {
+      "folder": "papercuts",
+      "name": "papercuts",
+      "invocable": true,
+      "description": "Log genuine, recurring repository friction to .agents/PAPERCUTS.md — confusing setup, a flaky repo command or script, a misleading in-repo error, stale generated files, or a non-obvious gotcha that will cost the next contributor time. Also use to review, deduplicate, and resolve existing entries. Gate hard before logging: only friction the repository itself can fix counts. Never log the agent's own sandbox/permission errors, shell-scripting mistakes, transient flakiness, or third-party tool quirks the repo can't change.",
+      "files": 2,
+      "bytes": 4992,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/papercuts/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.862Z"
+      }
+    },
+    {
+      "folder": "parallel-feature-development",
+      "name": "parallel-feature-development",
+      "invocable": true,
+      "description": "Coordinate parallel feature development with file ownership strategies, conflict avoidance rules, and integration patterns for multi-agent implementation. Use this skill when decomposing a large feature into independent work streams, when two or more agents need to implement different layers of the same system simultaneously, when establishing file ownership to prevent merge conflicts in a shared codebase, when designing interface contracts so parallel implementers can build against each other's APIs before they are ready, or when deciding whether to use vertical slices versus horizontal layers for a full-stack feature.",
+      "files": 3,
+      "bytes": 11798,
+      "source": {
+        "type": "github",
+        "repo": "wshobson/agents",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/agent-teams/skills/parallel-feature-development/SKILL.md",
+        "installedAt": "2026-11-23T13:02:04.307Z"
+      }
+    },
+    {
+      "folder": "perplexity-research",
+      "name": "perplexity-research",
+      "invocable": true,
+      "description": "Brain-augmented web research. Asks Perplexity about a topic, with a short summary of what the brain already knows, and returns what is NEW with citations. Sends page content only after the user agrees. Use for current-state checks and freshness deltas on topics. NOT for simple URL fetches (use web_fetch) or brain-only queries (use gbrain query).",
+      "files": 2,
+      "bytes": 8417,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "photo-metadata",
+      "name": "photo-metadata",
+      "invocable": true,
+      "description": "Embeds photo IPTC/EXIF/XMP metadata, caption, credit, alt text, license, AI-source label, GPS stripping, and C2PA credentials.",
+      "files": 5,
+      "bytes": 85411,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "pixelfx",
+      "name": "pixelfx",
+      "invocable": true,
+      "description": "Make pixel art effects and sprite animations in code with the pixelfx library, which has 244 ready-made ones, acted out by a character who winds up, freezes on contact and recovers (fire, explosions, water, ice, lightning, sci-fi, melee, impacts, projectiles, spawn and death, arcane, holy, shadow, status, nature, weather, UI, pickups, transitions, critters) to drop into a game, recolor, export as sprite sheets or remix, plus a draft, render, look, refine loop that makes new ones look hand-animated. Use when someone wants pixel art VFX, sprite animations or sprite sheets, game juice, a specific effect (\"a frost nova for my mage\", \"a coin pickup sparkle\"), wants to use or export a pixelfx effect in Godot, Unity, Phaser or a canvas game, or wants their pixel effects to look better.",
+      "files": 1,
+      "bytes": 12279,
+      "source": {
+        "type": "github",
+        "repo": "patch-gg/pixelfx",
+        "url": "https://github.com/patch-gg/pixelfx.git",
+        "path": "skills/pixelfx/SKILL.md",
+        "installedAt": "2026-11-25T13:00:49.619Z"
+      }
+    },
+    {
+      "folder": "pptx",
+      "name": "pptx",
+      "invocable": true,
+      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+      "files": 58,
+      "bytes": 1224751,
+      "source": {
+        "type": "github",
+        "repo": "anthropics/skills",
+        "url": "https://github.com/anthropics/skills.git",
+        "path": "skills/pptx/SKILL.md",
+        "installedAt": "2026-11-23T15:05:19.677Z"
+      }
+    },
+    {
+      "folder": "prisma-postgres-setup",
+      "name": "prisma-postgres-setup",
+      "invocable": true,
+      "description": "Obtain or reuse a Prisma Postgres database and connect an application. Use when the user needs a database and has none configured (\"I need a database\", \"add a Postgres database\", \"set up a database for this app\"), runs or mentions `create-db` or `npx create-db`, or asks to set up or connect Prisma Postgres, including in v0 and the Vercel Marketplace. Hands Prisma ORM configuration to prisma-orm-setup; reuses an existing connection first and honors an explicit provider, driver, alternative ORM, or database-only choice.",
+      "files": 4,
+      "bytes": 21821,
+      "source": {
+        "type": "github",
+        "repo": "prisma/skills",
+        "url": "https://github.com/prisma/skills.git",
+        "path": "prisma-postgres-setup/SKILL.md",
+        "installedAt": "2026-11-23T15:00:50.095Z"
+      }
+    },
+    {
+      "folder": "prometheus",
+      "name": "prometheus",
+      "invocable": true,
+      "description": ">",
+      "files": 6,
+      "bytes": 47084,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "query",
+      "name": "query",
+      "invocable": true,
+      "description": "|",
+      "files": 2,
+      "bytes": 12282,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "ragflow-dataset-ingest",
+      "name": "ragflow-dataset-ingest",
+      "invocable": true,
+      "description": "Use for RAGFlow dataset tasks: create, list, inspect, update, or delete datasets; upload, list, update, or delete documents; start or stop parsing; check parse status; retrieve chunks with `search.py`; and list configured models.",
+      "files": 15,
+      "bytes": 96321,
+      "source": {
+        "type": "github",
+        "repo": "infiniflow/ragflow-skills",
+        "url": "https://github.com/infiniflow/ragflow-skills.git",
+        "path": "dataset_skill/SKILL.md",
+        "installedAt": "2026-11-25T13:37:41.714Z"
+      }
+    },
+    {
+      "folder": "recipe-create-presentation",
+      "name": "recipe-create-presentation",
+      "invocable": true,
+      "description": "Create a new Google Slides presentation and add initial slides.",
+      "files": 1,
+      "bytes": 829,
+      "source": {
+        "type": "github",
+        "repo": "googleworkspace/cli",
+        "url": "https://github.com/googleworkspace/cli.git",
+        "path": "skills/recipe-create-presentation/SKILL.md",
+        "installedAt": "2026-11-23T15:06:12.843Z"
+      }
+    },
+    {
+      "folder": "release-bump",
+      "name": "release-bump",
+      "invocable": true,
+      "description": "Use this skill to finalize a release. It stamps the [Unreleased] changelog section with a version and date, runs bumpversion to update all version files, and creates the release commit and tag. Only run this when you're ready to ship.",
+      "files": 1,
+      "bytes": 4323,
+      "source": {
+        "type": "github",
+        "repo": "jamiepine/voicebox",
+        "url": "https://github.com/jamiepine/voicebox.git",
+        "path": ".agents/skills/release-bump/SKILL.md",
+        "installedAt": "2026-11-25T13:36:43.103Z"
+      }
+    },
+    {
+      "folder": "remotion-best-practices",
+      "name": "remotion-best-practices",
+      "invocable": true,
+      "description": "Router for all Remotion skills",
+      "files": 130,
+      "bytes": 461319,
+      "source": {
+        "type": "github",
+        "repo": "remotion-dev/skills",
+        "url": "https://github.com/remotion-dev/skills.git",
+        "path": "skills/remotion-best-practices/SKILL.md",
+        "installedAt": "2026-11-23T14:44:16.949Z"
+      }
+    },
+    {
+      "folder": "resolve-before-asking",
+      "name": "resolve-before-asking",
+      "invocable": true,
+      "description": "|",
+      "files": 2,
+      "bytes": 14799,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "responsive-design",
+      "name": "responsive-design",
+      "invocable": true,
+      "description": "Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior.",
+      "files": 1,
+      "bytes": 12423,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "review-brief",
+      "name": "review-brief",
+      "invocable": true,
+      "description": "Produce a scannable review brief for a branch or PR so the maintainer can approve without reading the whole diff. Use when the user asks \"how do I review this\", \"summarize the changes\", \"what should I look at\", or wants to understand a PR in under two minutes.",
+      "files": 1,
+      "bytes": 4721,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/review-brief/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.863Z"
+      }
+    },
+    {
+      "folder": "review-simplify",
+      "name": "review-simplify",
+      "invocable": true,
+      "description": "Review a PR for code that can be deleted or simplified. Use when asked to review for simplicity or unnecessary edge-case overengineering.",
+      "files": 1,
+      "bytes": 523,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/review-simplify/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.864Z"
+      }
+    },
+    {
+      "folder": "review-ui-states",
+      "name": "review-ui-states",
+      "invocable": true,
+      "description": "Enumerate and screenshot every UI state a PR adds or changes. Use when asked to show, capture, or screenshot the UI states of a PR or branch.",
+      "files": 1,
+      "bytes": 410,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/review-ui-states/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.866Z"
+      }
+    },
+    {
+      "folder": "scheduled-tasks",
+      "name": "scheduled-tasks",
+      "invocable": true,
+      "description": "Create, edit, run or audit scheduled, planned and adhoc tasks; cron, timezones and reminders.",
+      "files": 2,
+      "bytes": 3895,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "skills/scheduled-tasks/SKILL.md",
+        "installedAt": "2026-11-25T13:37:33.801Z"
+      }
+    },
+    {
+      "folder": "security-auditor",
+      "name": "security-auditor",
+      "invocable": true,
+      "description": "Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.",
+      "files": 1,
+      "bytes": 11667,
+      "source": {
+        "type": "github",
+        "repo": "sickn33/agentic-awesome-skills",
+        "url": "https://github.com/sickn33/agentic-awesome-skills.git",
+        "path": "skills/security-auditor/SKILL.md",
+        "installedAt": "2026-11-23T13:00:59.202Z"
+      }
+    },
+    {
+      "folder": "seed-closer",
+      "name": "seed-closer",
+      "invocable": true,
+      "description": ">-",
+      "files": 3,
+      "bytes": 110489,
+      "source": {
+        "type": "github",
+        "repo": "jakeschincariol/seed-skill",
+        "url": "https://github.com/jakeschincariol/seed-skill.git",
+        "path": "seed-closer/SKILL.md",
+        "installedAt": "2026-11-25T13:03:51.770Z"
+      }
+    },
+    {
+      "folder": "seed-coach",
+      "name": "seed-coach",
+      "invocable": true,
+      "description": ">-",
+      "files": 3,
+      "bytes": 40294,
+      "source": {
+        "type": "github",
+        "repo": "jakeschincariol/seed-skill",
+        "url": "https://github.com/jakeschincariol/seed-skill.git",
+        "path": "seed-coach/SKILL.md",
+        "installedAt": "2026-11-25T13:03:51.773Z"
+      }
+    },
+    {
+      "folder": "seed-dataroom",
+      "name": "seed-dataroom",
+      "invocable": true,
+      "description": ">-",
+      "files": 2,
+      "bytes": 25855,
+      "source": {
+        "type": "github",
+        "repo": "jakeschincariol/seed-skill",
+        "url": "https://github.com/jakeschincariol/seed-skill.git",
+        "path": "seed-dataroom/SKILL.md",
+        "installedAt": "2026-11-25T13:03:51.774Z"
+      }
+    },
+    {
+      "folder": "seed-deck",
+      "name": "seed-deck",
+      "invocable": true,
+      "description": ">-",
+      "files": 2,
+      "bytes": 50820,
+      "source": {
+        "type": "github",
+        "repo": "jakeschincariol/seed-skill",
+        "url": "https://github.com/jakeschincariol/seed-skill.git",
+        "path": "seed-deck/SKILL.md",
+        "installedAt": "2026-11-25T13:03:51.776Z"
+      }
+    },
+    {
+      "folder": "seed-investors",
+      "name": "seed-investors",
+      "invocable": true,
+      "description": ">-",
+      "files": 3,
+      "bytes": 57008,
+      "source": {
+        "type": "github",
+        "repo": "jakeschincariol/seed-skill",
+        "url": "https://github.com/jakeschincariol/seed-skill.git",
+        "path": "seed-investors/SKILL.md",
+        "installedAt": "2026-11-25T13:03:51.777Z"
+      }
+    },
+    {
+      "folder": "seed-market",
+      "name": "seed-market",
+      "invocable": true,
+      "description": ">-",
+      "files": 2,
+      "bytes": 28040,
+      "source": {
+        "type": "github",
+        "repo": "jakeschincariol/seed-skill",
+        "url": "https://github.com/jakeschincariol/seed-skill.git",
+        "path": "seed-market/SKILL.md",
+        "installedAt": "2026-11-25T13:03:51.778Z"
+      }
+    },
+    {
+      "folder": "seed-model",
+      "name": "seed-model",
+      "invocable": true,
+      "description": ">-",
+      "files": 3,
+      "bytes": 37617,
+      "source": {
+        "type": "github",
+        "repo": "jakeschincariol/seed-skill",
+        "url": "https://github.com/jakeschincariol/seed-skill.git",
+        "path": "seed-model/SKILL.md",
+        "installedAt": "2026-11-25T13:03:51.779Z"
+      }
+    },
+    {
+      "folder": "seed-plan",
+      "name": "seed-plan",
+      "invocable": true,
+      "description": ">-",
+      "files": 3,
+      "bytes": 51807,
+      "source": {
+        "type": "github",
+        "repo": "jakeschincariol/seed-skill",
+        "url": "https://github.com/jakeschincariol/seed-skill.git",
+        "path": "seed-plan/SKILL.md",
+        "installedAt": "2026-11-25T13:03:51.780Z"
+      }
+    },
+    {
+      "folder": "seed-scout",
+      "name": "seed-scout",
+      "invocable": true,
+      "description": ">-",
+      "files": 2,
+      "bytes": 42112,
+      "source": {
+        "type": "github",
+        "repo": "jakeschincariol/seed-skill",
+        "url": "https://github.com/jakeschincariol/seed-skill.git",
+        "path": "seed-scout/SKILL.md",
+        "installedAt": "2026-11-25T13:03:51.781Z"
+      }
+    },
+    {
+      "folder": "seed-terms",
+      "name": "seed-terms",
+      "invocable": true,
+      "description": ">-",
+      "files": 2,
+      "bytes": 53530,
+      "source": {
+        "type": "github",
+        "repo": "jakeschincariol/seed-skill",
+        "url": "https://github.com/jakeschincariol/seed-skill.git",
+        "path": "seed-terms/SKILL.md",
+        "installedAt": "2026-11-25T13:03:51.783Z"
+      }
+    },
+    {
+      "folder": "seed-updates",
+      "name": "seed-updates",
+      "invocable": true,
+      "description": ">-",
+      "files": 3,
+      "bytes": 32287,
+      "source": {
+        "type": "github",
+        "repo": "jakeschincariol/seed-skill",
+        "url": "https://github.com/jakeschincariol/seed-skill.git",
+        "path": "seed-updates/SKILL.md",
+        "installedAt": "2026-11-25T13:03:51.785Z"
+      }
+    },
+    {
+      "folder": "seedance-25",
+      "name": "seedance-25",
+      "invocable": true,
+      "description": "Create, revise, compress, translate, diagnose, and production-plan prompts for Dreamina/Seedance 2.5. Use when the user mentions Seedance 2.5, Dreamina 2.5, text/image/video/audio-to-video, multimodal references, videos up to 30 seconds, multi-clip long-form production, timestamps, first/last frames, multiple keyframes, video editing, forward/backward extension, one-click video, seamless transitions, storyboard grids, blockout or clay rendering, dialogue/audio control, character consistency, or a failed Seedance 2.5 generation. Do not apply Seedance 2.0 numeric limits to 2.5 or claim current API, price, region, quota, or surface availability without live verification.",
+      "files": 6,
+      "bytes": 77024,
+      "source": {
+        "type": "github",
+        "repo": "sjinn-ai/seedance2.5-skills",
+        "url": "https://github.com/sjinn-ai/seedance2.5-skills.git",
+        "path": "seedance-25/SKILL.md",
+        "installedAt": "2026-11-23T14:44:29.013Z"
+      }
+    },
+    {
+      "folder": "seo-audit",
+      "name": "seo-audit",
+      "invocable": true,
+      "description": "Audit a website, investigate its real search opportunities, and deliver a short data-backed report on the few changes most likely to grow organic traffic that converts.",
+      "files": 1,
+      "bytes": 17124,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/seo-audit/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.867Z"
+      }
+    },
+    {
+      "folder": "seo-coach",
+      "name": "seo-coach",
+      "invocable": true,
+      "description": "Enter a friendly OpenSEO coach mode that explains workflows, recommends next steps, and helps users use agents, web search, scraping, and MCP data effectively.",
+      "files": 1,
+      "bytes": 10218,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/seo-coach/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.868Z"
+      }
+    },
+    {
+      "folder": "seo-project-setup",
+      "name": "seo-project-setup",
+      "invocable": true,
+      "description": "Populate a project's shared OpenSEO context — site scope, goals, positioning, competitors, key pages, and preferences — plus MCP checks and Search Console intake.",
+      "files": 1,
+      "bytes": 9541,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/seo-project-setup/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.869Z"
+      }
+    },
+    {
+      "folder": "seo-report",
+      "name": "seo-report",
+      "invocable": true,
+      "description": "Write and save an OpenSEO report as one self-contained HTML page. Use when a skill has finished its research, and whenever the user asks for a report, check-in, or summary, or names a report template.",
+      "files": 1,
+      "bytes": 36896,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/seo-report/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.870Z"
+      }
+    },
+    {
+      "folder": "setup-a0-cli",
+      "name": "setup-a0-cli",
+      "invocable": true,
+      "description": "Install, connect or troubleshoot A0 CLI host access, local files and remote tools.",
+      "files": 1,
+      "bytes": 3625,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "skills/setup-a0-cli/SKILL.md",
+        "installedAt": "2026-11-25T13:37:33.802Z"
+      }
+    },
+    {
+      "folder": "setup-openseo",
+      "name": "setup-openseo",
+      "invocable": true,
+      "description": "Set up OpenSEO in the current AI agent. Use when a user pastes the OpenSEO installation prompt or asks to connect its plugin, MCP, and skills.",
+      "files": 1,
+      "bytes": 6960,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/setup-openseo/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.871Z"
+      }
+    },
+    {
+      "folder": "simple-issue-description",
+      "name": "simple-issue-description",
+      "invocable": true,
+      "description": "Turn a rough bug report, feature request, support note, or pull request into a short, plain-language issue focused on the problem and desired behavior. Use when a contributor asks to simplify an issue, explain what a PR is for, create the corresponding issue for a PR, remove implementation detail from a report, or invokes /simple-issue-description.",
+      "files": 2,
+      "bytes": 4962,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/simple-issue-description/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.872Z"
+      }
+    },
+    {
+      "folder": "slides",
+      "name": "slides",
+      "invocable": true,
+      "description": "Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies.",
+      "files": 6,
+      "bytes": 20473,
+      "source": {
+        "type": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+        "path": ".claude/skills/slides/SKILL.md",
+        "installedAt": "2026-11-23T15:05:30.737Z"
+      }
+    },
+    {
+      "folder": "slideshow",
+      "name": "slideshow",
+      "invocable": true,
+      "description": "Build a HyperFrames slideshow to present live - slides, fragment reveals, branching hotspots and presenter mode with speaker notes, served by `hyperframes present` - or turn an existing page into one. Use when the person wants a deck or presentation rather than a rendered video.",
+      "files": 2,
+      "bytes": 49494,
+      "source": {
+        "type": "github",
+        "repo": "heygen-com/hyperframes",
+        "url": "https://github.com/heygen-com/hyperframes.git",
+        "path": "skills/slideshow/SKILL.md",
+        "installedAt": "2026-11-23T15:04:58.922Z"
+      }
+    },
+    {
+      "folder": "source-verification",
+      "name": "source-verification",
+      "invocable": true,
+      "description": "Verify sources, claims, images, video, documents, interviews, and synthetic media with SIFT and a durable evidence trail. Use before relying on uncertain material.",
+      "files": 11,
+      "bytes": 26381,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "SpringBoot-MyBatis-UnitTesting",
+      "name": "SpringBoot-MyBatis-UnitTesting",
+      "invocable": true,
+      "description": "|",
+      "files": 16,
+      "bytes": 221105,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "stable-diffusion-prompt-guide-basic-to-advanced-ex-750475b1",
+      "name": "stable-diffusion-prompt-guide-basic-to-advanced-ex-750475b1",
+      "invocable": true,
+      "description": "t forget to detail the preferred ... image, with common prompts like front view, side view, back view, looking back, eye contact, from above, portrait, headshot, close-up, and bird",
+      "files": 3,
+      "bytes": 2071,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "supabase-postgres-best-practices",
+      "name": "supabase-postgres-best-practices",
+      "invocable": true,
+      "description": "Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changing anything that lives in a Postgres database: creating or altering tables and columns (including choosing column types), schema design, migrations and declarative schema files, RLS policies and the tests that verify them, indexes, triggers, database functions, queues and scheduled jobs (pg_cron, pgmq), vector/semantic search (pgvector), and restoring dumps (pg_restore) or importing data. Also load it when diagnosing slow queries, high CPU, timeouts, EXPLAIN plans, connection exhaustion, locking, bloat, or rows visible to the wrong user or tenant. This is not just a performance guide — schema, migration, security, and SQL authoring tasks need these rules too, even for a one-column change or a single query.",
+      "files": 36,
+      "bytes": 64001,
+      "source": {
+        "type": "github",
+        "repo": "supabase/agent-skills",
+        "url": "https://github.com/supabase/agent-skills.git",
+        "path": "skills/supabase-postgres-best-practices/SKILL.md",
+        "installedAt": "2026-11-23T14:50:05.390Z"
+      }
+    },
+    {
+      "folder": "takeover",
+      "name": "takeover",
+      "invocable": true,
+      "description": "Take over a public (every-app/open-seo) PR, or a branch or agent thread, and finish it in the private repo while keeping the original contributors' credit in the merged commit. Use when the user asks to take over, finish, adopt, or land someone else's PR, or when triage decides a contributor's PR should ship.",
+      "files": 1,
+      "bytes": 3036,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/takeover/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.874Z"
+      }
+    },
+    {
+      "folder": "tdd",
+      "name": "tdd",
+      "invocable": true,
+      "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+      "files": 4,
+      "bytes": 7588,
+      "source": {
+        "type": "github",
+        "repo": "mattpocock/skills",
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": "skills/engineering/tdd/SKILL.md",
+        "installedAt": "2026-11-23T13:01:39.588Z"
+      }
+    },
+    {
+      "folder": "test-audit",
+      "name": "test-audit",
+      "invocable": true,
+      "description": "Invoke whenever writing, changing, reviewing, or sweeping Vitest tests in this repo. Authoring gate for new or changed tests, plus an audit workflow for low-value, implementation-coupled, or duplicative tests and the test-only production seams they keep alive. Use when asked to add tests, review tests, clean up tests, or when a PR touches *.test.ts.",
+      "files": 1,
+      "bytes": 11290,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/test-audit/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.875Z"
+      }
+    },
+    {
+      "folder": "test-case-generator",
+      "name": "test-case-generator",
+      "invocable": true,
+      "description": "专业的测试用例生成技能。支持文本/文档输入，自动生成高质量测试用例。内置依赖检测、质量评分、多格式导出、测试数据生成、用例评审、增量更新等高级功能。支持自定义 prompt 和配置。",
+      "files": 16,
+      "bytes": 69604,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "testing-strategy-builder",
+      "name": "testing-strategy-builder",
+      "invocable": true,
+      "description": "Use this skill when creating comprehensive testing strategies for applications. Provides test planning templates, coverage targets, test case structures, and guidance for unit, integration, E2E, and performance testing. Ensures robust quality assurance across the development lifecycle.",
+      "files": 2,
+      "bytes": 15872,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "triage-prs",
+      "name": "triage-prs",
+      "invocable": true,
+      "description": "Use this skill to triage the open PR queue before a release. Classifies every open PR into must-merge, candidate, superseded, or deferred; writes a working triage doc; and runs the merge loop end-to-end. Designed for the pre-release \"PR speedrun\" pass where a solo maintainer wants to clear the inbound backlog in a single session.",
+      "files": 1,
+      "bytes": 12851,
+      "source": {
+        "type": "github",
+        "repo": "jamiepine/voicebox",
+        "url": "https://github.com/jamiepine/voicebox.git",
+        "path": ".agents/skills/triage-prs/SKILL.md",
+        "installedAt": "2026-11-25T13:36:43.105Z"
+      }
+    },
+    {
+      "folder": "typescript-developer",
+      "name": "typescript-developer",
+      "invocable": true,
+      "description": "Use when developing applications or components using TypeScript, ensuring type safety and leveraging TypeScript features.",
+      "files": 2,
+      "bytes": 3984,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "ui-designer",
+      "name": "ui-designer",
+      "invocable": true,
+      "description": "Design beautiful interfaces using 16+ design systems including Material You, Fluent Design, Apple HIG, Ant Design, Carbon Design, Shopify Polaris, Minimalism, Glassmorphism, Neo-Brutalism, Neumorphism, Skeuomorphism, Claymorphism, Swiss Design, and Atlassian Design. Expert in Tailwind CSS, color harmonics, component theming, and accessibility (WCAG).",
+      "files": 28,
+      "bytes": 58710,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "using-n8n-skills-official",
+      "name": "using-n8n-skills-official",
+      "invocable": true,
+      "description": "Use when working with n8n workflows in any capacity. The always-on protocol for the n8n-skills plugin, loaded by the SessionStart hook every session. Routes to the right skill, summarizes every n8n MCP tool (closing the deferred-description gap), and lists the cross-cutting rules.",
+      "files": 1,
+      "bytes": 27838,
+      "source": {
+        "type": "github",
+        "repo": "n8n-io/skills",
+        "url": "https://github.com/n8n-io/skills.git",
+        "path": "skills/using-n8n-skills-official/SKILL.md",
+        "installedAt": "2026-11-25T13:37:22.787Z"
+      }
+    },
+    {
+      "folder": "vercel-composition-patterns",
+      "name": "vercel-composition-patterns",
+      "invocable": true,
+      "description": "React composition patterns that scale. Use when refactoring components with",
+      "files": 14,
+      "bytes": 50339,
+      "source": {
+        "type": "github",
+        "repo": "vercel-labs/agent-skills",
+        "url": "https://github.com/vercel-labs/agent-skills.git",
+        "path": "skills/composition-patterns/SKILL.md",
+        "installedAt": "2026-11-23T15:02:41.214Z"
+      }
+    },
+    {
+      "folder": "vercel-react-best-practices",
+      "name": "vercel-react-best-practices",
+      "invocable": true,
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "files": 76,
+      "bytes": 230383,
+      "source": {
+        "type": "github",
+        "repo": "vercel-labs/agent-skills",
+        "url": "https://github.com/vercel-labs/agent-skills.git",
+        "path": "skills/react-best-practices/SKILL.md",
+        "installedAt": "2026-11-23T15:01:15.685Z"
+      }
+    },
+    {
+      "folder": "vercel-react-native-skills",
+      "name": "vercel-react-native-skills",
+      "invocable": true,
+      "description": "React Native and Expo best practices for building performant mobile apps. Use",
+      "files": 42,
+      "bytes": 159022,
+      "source": {
+        "type": "github",
+        "repo": "vercel-labs/agent-skills",
+        "url": "https://github.com/vercel-labs/agent-skills.git",
+        "path": "skills/react-native-skills/SKILL.md",
+        "installedAt": "2026-11-23T15:07:05.354Z"
+      }
+    },
+    {
+      "folder": "verify-local-mcp",
+      "name": "verify-local-mcp",
+      "invocable": true,
+      "description": "Verify the OpenSEO MCP server end-to-end on a local dev server — protocol-level correctness against real DataForSEO, then a headless-agent consumer probe that tests tool ergonomics (descriptions, schemas, output size, errors, async flows) without the maintainer manually driving an MCP client. Use after adding or changing MCP tools, or when asked to check that the MCP \"works\" or \"is ergonomic\".",
+      "files": 1,
+      "bytes": 5425,
+      "source": {
+        "type": "github",
+        "repo": "every-app/open-seo",
+        "url": "https://github.com/every-app/open-seo.git",
+        "path": ".agents/skills/verify-local-mcp/SKILL.md",
+        "installedAt": "2026-11-25T13:30:14.876Z"
+      }
+    },
+    {
+      "folder": "video-extend",
+      "name": "video-extend",
+      "invocable": true,
+      "description": ">",
+      "files": 1,
+      "bytes": 9726,
+      "source": {
+        "type": "github",
+        "repo": "prime-skills/runcomfy-agent-skills",
+        "url": "https://github.com/prime-skills/runcomfy-agent-skills.git",
+        "path": "video-extend/SKILL.md",
+        "installedAt": "2026-11-23T14:59:16.384Z"
+      }
+    },
+    {
+      "folder": "video-watermark-remover",
+      "name": "video-watermark-remover",
+      "invocable": true,
+      "description": "Remove watermarks from videos using ffmpeg delogo filter. Use this skill whenever the user wants to remove a watermark from a video, asks to remove a logo/text overlay, sends a video with visible watermarks, or says \"去除水印\" / \"remove watermark\" / \"去水印\". Works for both fixed-position and dynamically-moving watermarks (segmented delogo approach). Does NOT remove transparent/AI-generated complex watermarks that require inpainting — those need a different pipeline.",
+      "files": 4,
+      "bytes": 10044,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "web-archiving",
+      "name": "web-archiving",
+      "invocable": true,
+      "description": "Web archiving and retrieval via Wayback Machine and Archive.today. Use to preserve content, reach dead pages, or save evidence.",
+      "files": 2,
+      "bytes": 26654,
+      "source": {
+        "type": "local"
+      }
+    },
+    {
+      "folder": "web-pentest",
+      "name": "web-pentest",
+      "invocable": true,
+      "description": "Perform black-box / grey-box web application penetration testing on an authorized target — auth bypass, IDOR, session handling, business-logic flaws, parameter tampering, Burp Suite / OWASP ZAP workflows. Use when the user mentions 'web pentest,' 'web application penetration test,' 'pentesting,' 'bug bounty,' 'Burp Suite,' 'ZAP,' 'OWASP testing,' 'authentication testing,' 'session testing,' 'authorization testing,' 'web vulnerability testing,' 'redact the Burp transcript,' 'test accounts without pasting passwords into the prompt,' or has explicit authorization to test a live web application.",
+      "files": 7,
+      "bytes": 110282,
+      "source": {
+        "type": "github",
+        "repo": "briiirussell/cybersecurity-skills",
+        "url": "https://github.com/briiirussell/cybersecurity-skills.git",
+        "path": "skills/web-pentest/SKILL.md",
+        "installedAt": "2026-11-23T13:01:32.450Z"
+      }
+    },
+    {
+      "folder": "web-video-presentation",
+      "name": "web-video-presentation",
+      "invocable": true,
+      "description": "把一篇文章或口播稿，做成\"看起来像视频\"的点击驱动 16:9 网页演示，可选合成口播音频。流程：原始文章 → **一次产出**口播稿 + outline 开发计划 → 用户**一次对齐** 5 件事（稿子 / outline / 主题 / 素材 / 开发模式）→ 网页开发（逐章 / 顺序 / 并行）→ 可选音频合成（provider-agnostic：内置 MiniMax mmx-cli + OpenAI TTS，可换 ElevenLabs / edge-tts / Azure / 自带 TTS）。**outline 只规划节奏与信息密度，不规划动画** —— 动画由章节开发时按 PRINCIPLES + ANTI-AI 法则即时设计。每次点击推进口播稿的一个节拍，每一步独占整屏，进度条平时隐藏只在悬浮时出现。适用场景：用网页做视频（动态 PPT 但不像 PPT）、把口播稿 / 文章变成可交互的解说、为 B 站 / YouTube / 视频号录屏教程、做有电影感的产品 / talk demo。本 Skill 沉淀的是设计方法论 + 协作流程 —— 不绑定任何特定样式 / 字体 / 颜色 —— 因此能复用到任意主题与美学。",
+      "files": 95,
+      "bytes": 364419,
+      "source": {
+        "type": "github",
+        "repo": "conardli/garden-skills",
+        "url": "https://github.com/conardli/garden-skills.git",
+        "path": "skills/web-video-presentation/SKILL.md",
+        "installedAt": "2026-11-23T15:37:25.286Z"
+      }
+    },
+    {
+      "folder": "writer-documents",
+      "name": "writer-documents",
+      "invocable": true,
+      "description": "Create, open or edit Writer documents: ODT default; DOCX for Word compatibility.",
+      "files": 1,
+      "bytes": 2146,
+      "source": {
+        "type": "github",
+        "repo": "agent0ai/agent-zero",
+        "url": "https://github.com/agent0ai/agent-zero.git",
+        "path": "plugins/_office/skills/writer-documents/SKILL.md",
+        "installedAt": "2026-11-25T13:38:26.011Z"
+      }
+    }
+  ]
+}

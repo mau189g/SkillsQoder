@@ -1,0 +1,1498 @@
+{
+  "enabledPlugins": {
+    "qoder-context@qoderapp-bundler": true,
+    "Presentations@qoder-marketplace": true,
+    "office-excel@qoder-marketplace": true,
+    "office-docx@qoder-marketplace": true,
+    "qoder-memory@qoderapp-bundler": true
+  },
+  "providers": {
+    "qoder-custom-9f2ad3e3-d6d1-4ad2-b5f0-9b3683b4e2f1": {
+      "displayName": "FreeLLMAPI",
+      "baseUrl": "http://localhost:3001/v1",
+      "apiKey": "${FREELLMAPI_API_KEY}",
+      "type": "openai-compatible",
+      "protocol": "openai",
+      "authType": "bearer",
+      "model": "auto",
+      "models": [
+        {
+          "model": "auto",
+          "displayName": "Auto (router picks the best available model)",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "fusion",
+          "displayName": "Fusion (panel of models answer in parallel, a judge synthesizes one answer)",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "claude-opus-4-5",
+          "displayName": "Opus slot (auto-routed to a free model)",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "claude-sonnet-4-5",
+          "displayName": "Sonnet slot (auto-routed to a free model)",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "claude-haiku-4-5",
+          "displayName": "Haiku slot (auto-routed to a free model)",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "glm-5.3-flash",
+          "displayName": "GLM 5.3 Flash",
+          "contextWindow": 1000000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemini-3.8-flash",
+          "displayName": "Gemini 3.8 Flash",
+          "contextWindow": 1000000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemini-flash",
+          "displayName": "Gemini Flash",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemini-3.7-flash",
+          "displayName": "Gemini 3.7 Flash",
+          "contextWindow": 1048576,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "dots3-note-preview",
+          "displayName": "Dots3 Note Preview",
+          "contextWindow": 512000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemini-3.6-flash",
+          "displayName": "Gemini 3.6 Flash",
+          "contextWindow": 1048576,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "qwen-3.8-27b",
+          "displayName": "Qwen 3.8 27B",
+          "contextWindow": 262144,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "gemini-3.5-flash",
+          "displayName": "Gemini 3.5 Flash",
+          "contextWindow": 1048576,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemma-4-26b-a4b-it",
+          "displayName": "Gemma 4 26B A4B IT",
+          "contextWindow": 8192,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "gemma-4-31b-it",
+          "displayName": "Gemma 4 31B IT",
+          "contextWindow": 32768,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "glm-4.7-flash",
+          "displayName": "GLM 4.7 Flash",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "gpt-oss-120b",
+          "displayName": "GPT Oss 120B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "gpt-oss-20b",
+          "displayName": "GPT Oss 20B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "llama-3.1-8b",
+          "displayName": "Llama 3.1 8B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "moondream-3.1-9b-a2b",
+          "displayName": "Moondream 3.1 9B A2B",
+          "contextWindow": 32768,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "nemotron-3.5-super-vl",
+          "displayName": "Nemotron 3.5 Super VL",
+          "contextWindow": 1000000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "qwen3-30b-a3b-fp8",
+          "displayName": "Qwen3 30B A3B FP8",
+          "contextWindow": 8192,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "step-5-preview",
+          "displayName": "Step 5 Preview",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemini-robotics-er-2-preview",
+          "displayName": "Gemini Robotics-ER 2 Preview",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "nemotron-3-ultra-550b",
+          "displayName": "Nemotron 3 Ultra 550B",
+          "contextWindow": 1000000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "gemini-3.5-flash-lite",
+          "displayName": "Gemini 3.5 Flash Lite",
+          "contextWindow": 1000000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemini-flash-lite",
+          "displayName": "Gemini Flash Lite",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "muse-glimmer-30b",
+          "displayName": "Muse Glimmer 30B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemma-4-31b",
+          "displayName": "Gemma 4 31B",
+          "contextWindow": 262144,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemini-3-flash-preview",
+          "displayName": "Gemini 3 Flash Preview",
+          "contextWindow": 1048576,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemma-4-26b-it",
+          "displayName": "Gemma 4 26B IT",
+          "contextWindow": 32768,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemma-4-26b-a4b",
+          "displayName": "Gemma 4 26B-A4B",
+          "contextWindow": 262000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemini-3.1-flash-lite-preview",
+          "displayName": "Gemini 3.1 Flash Lite Preview",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemini-3.1-flash-lite",
+          "displayName": "Gemini 3.1 Flash-Lite",
+          "contextWindow": 1048576,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "poolside-laguna-xs-2.1",
+          "displayName": "Poolside Laguna XS 2.1",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "command-a-2",
+          "displayName": "Command A+",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "gemini-2.5-flash",
+          "displayName": "Gemini 2.5 Flash",
+          "contextWindow": 1048576,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "nemotron-3-120b",
+          "displayName": "Nemotron 3 120B",
+          "contextWindow": 262144,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "nemotron-3-super-120b",
+          "displayName": "Nemotron 3 Super 120B",
+          "contextWindow": 262144,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "nemotron-3.5-lightning",
+          "displayName": "Nemotron 3.5 Lightning",
+          "contextWindow": 1048576,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "nemotron-3.5-lightning-30b-a3b",
+          "displayName": "Nemotron 3.5 Lightning 30B A3B",
+          "contextWindow": 1000000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "north-mini-code",
+          "displayName": "North Mini Code",
+          "contextWindow": 256000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "diffusiongemma-26b-a4b-it",
+          "displayName": "DiffusionGemma 26B A4B IT",
+          "contextWindow": 262144,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "qwq-32b",
+          "displayName": "QwQ 32B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "command-a-reasoning",
+          "displayName": "Command A Reasoning",
+          "contextWindow": 256000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "gemini-2.5-flash-lite",
+          "displayName": "Gemini 2.5 Flash-Lite",
+          "contextWindow": 1000000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "nemotron-3-nano-30b-reasoning",
+          "displayName": "Nemotron 3 Nano 30B Reasoning",
+          "contextWindow": 262144,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "nemotron-3-nano-omni-30b-a3b-reasoning",
+          "displayName": "Nemotron 3 Nano Omni 30B A3B Reasoning",
+          "contextWindow": 262144,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "deepseek-r1-distill-qwen-32b",
+          "displayName": "DeepSeek R1 Distill Qwen 32B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "ising-calibration-1.5-31b",
+          "displayName": "Ising Calibration 1.5 31B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "llama-3.3-70b-fp8-fast",
+          "displayName": "Llama 3.3 70B fp8-fast",
+          "contextWindow": 24000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "llama-4-scout",
+          "displayName": "Llama 4 Scout",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "command-a-vision",
+          "displayName": "Command A Vision",
+          "contextWindow": 128000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "command-a",
+          "displayName": "Command-A",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "mistral-small-3.1-24b",
+          "displayName": "Mistral Small 3.1 24B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "qwen2.5-coder-32b",
+          "displayName": "Qwen2.5 Coder 32B",
+          "contextWindow": 32768,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "llama-3.2-3b",
+          "displayName": "Llama 3.2 3B",
+          "contextWindow": 128000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "llama-3.2-90b-vision",
+          "displayName": "Llama 3.2 90B Vision",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "command-a-translate",
+          "displayName": "Command A Translate",
+          "contextWindow": 256000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "gemma-sea-lion-v4-27b",
+          "displayName": "Gemma SEA-LION v4 27B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "llama-3.2-11b-vision",
+          "displayName": "Llama 3.2 11B Vision",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "llama-3.2-1b-instruct",
+          "displayName": "Llama 3.2 1B Instruct",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "north-small-translate",
+          "displayName": "North Small Translate",
+          "contextWindow": 32768,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "tiny-aya-global",
+          "displayName": "Tiny Aya Global",
+          "contextWindow": 8192,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "tiny-aya-earth",
+          "displayName": "Tiny Aya Earth",
+          "contextWindow": 8192,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "tiny-aya-fire",
+          "displayName": "Tiny Aya Fire",
+          "contextWindow": 8192,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "tiny-aya-water",
+          "displayName": "Tiny Aya Water",
+          "contextWindow": 8192,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "command-r-2",
+          "displayName": "Command R+",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "granite-4.0-h-micro",
+          "displayName": "Granite 4.0 H Micro",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "llama-2-7b-chat-lora",
+          "displayName": "Llama 2 7B Chat LoRA",
+          "contextWindow": 8192,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "mistral-7b-instruct-v0.2-lora",
+          "displayName": "Mistral 7B Instruct v0.2 LoRA",
+          "contextWindow": 32768,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "riva-translate-4b-instruct-v2",
+          "displayName": "Riva Translate 4B Instruct v2",
+          "contextWindow": 32768,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "aya-expanse-32b",
+          "displayName": "Aya Expanse 32B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "aya-vision-32b",
+          "displayName": "Aya Vision 32B",
+          "contextWindow": 16384,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "command-r",
+          "displayName": "Command R",
+          "contextWindow": 128000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "command-r7b",
+          "displayName": "Command R7B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "command-r7b-arabic",
+          "displayName": "Command R7B Arabic",
+          "contextWindow": 128000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "llama-3.1-nemoguard-8b-content-safety",
+          "displayName": "Llama 3.1 NemoGuard 8B Content Safety",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "llama-3.1-nemoguard-8b-topic-control",
+          "displayName": "Llama 3.1 NemoGuard 8B Topic Control",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "llama-3.1-nemotron-safety-guard-8b-v3",
+          "displayName": "Llama 3.1 Nemotron Safety Guard 8B v3",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "llama-guard-3-8b",
+          "displayName": "Llama Guard 3 8B",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "nemotron-3.5-content-safety",
+          "displayName": "Nemotron 3.5 Content Safety",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "nemotron-parse-2.0",
+          "displayName": "Nemotron Parse 2.0",
+          "contextWindow": 131072,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        },
+        {
+          "model": "gemma-2b-it-lora",
+          "displayName": "Gemma 2B IT LoRA",
+          "contextWindow": 8192,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "gemma-7b-it-lora",
+          "displayName": "Gemma 7B IT LoRA",
+          "contextWindow": 8192,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        },
+        {
+          "model": "llava-1.5-7b",
+          "displayName": "LLaVA 1.5 7B",
+          "contextWindow": 4096,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": true,
+            "thinking": {
+              "modes": [],
+              "supportsEffort": false,
+              "supportedEffortLevels": []
+            }
+          }
+        }
+      ]
+    }
+  }
+}
